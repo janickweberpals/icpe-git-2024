@@ -1,0 +1,13 @@
+---
+title: "Notes"
+format: html
+editor: visual
+---
+
+## STATA
+
+```{r,include=FALSE}
+library(Statamarkdown)
+```
+
+<https://users.ssc.wisc.edu/~hemken/Stataworkshops/Statamarkdown/stata-and-r-markdown.html>
