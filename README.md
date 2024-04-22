@@ -1,4 +1,4 @@
-# ICPE 2024 ore-conference course
+# ICPE 2024 pre-conference course
 
 ## Let’s git it started: transparency and reproducibility across the RWE study lifecycle
 
