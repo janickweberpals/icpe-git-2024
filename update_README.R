@@ -3,6 +3,6 @@ library(pandoc)
 library(rmarkdown)
 
 # get pandoc location
-print(Sys.getenv("RSTUDIO_PANDOC"))
-# Sys.setenv(RSTUDIO_PANDOC="--- insert directory here ---")
+Sys.setenv(RSTUDIO_PANDOC='/usr/lib/rstudio/bin/pandoc')
+
 rmarkdown::render(input = "index.qmd", output_file = here::here('README.md'), output_format = 'md_document')
