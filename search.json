@@ -104,7 +104,18 @@
     "href": "01_protocol.html",
     "title": "3  Protocols for pre-specification",
     "section": "",
-    "text": "3.1 HARPER\nAdditional information can go here",
+    "text": "3.1 HARPER\nAdditional information can go here, e.g.,",
+    "crumbs": [
+      "Protocol",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
+    ]
+  },
+  {
+    "objectID": "01_protocol.html#harper",
+    "href": "01_protocol.html#harper",
+    "title": "3  Protocols for pre-specification",
+    "section": "",
+    "text": "Link to HARPER resouces (OSF)\nMain points to consider\netc.",
     "crumbs": [
       "Protocol",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
@@ -115,7 +126,18 @@
     "href": "02_intro.html",
     "title": "4  Introduction to Git",
     "section": "",
-    "text": "4.1 Introduction to Git\nAdditional information can go here",
+    "text": "4.1 Introduction to Git\nAdditional information can go here, e.g.,",
+    "crumbs": [
+      "Git introduction",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to Git</span>"
+    ]
+  },
+  {
+    "objectID": "02_intro.html#introduction-to-git",
+    "href": "02_intro.html#introduction-to-git",
+    "title": "4  Introduction to Git",
+    "section": "",
+    "text": "git workflow summary\nGlossary\nMost important commands\n\n\nShow the code\ngit add .\ngit commit\ngit push",
     "crumbs": [
       "Git introduction",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to Git</span>"
@@ -126,7 +148,18 @@
     "href": "03_workshop.html",
     "title": "5  Git interactive hands-on workshop",
     "section": "",
-    "text": "5.1 Git workshop\nAdditional information can go here",
+    "text": "5.1 Git workshop\nAdditional information can go here, e.g.,",
+    "crumbs": [
+      "Git hands-on workshop",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#git-workshop",
+    "href": "03_workshop.html#git-workshop",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "",
+    "text": "Case study instructions\nSetup instructions\n\nInstalling git\nInstalling GitHub Desktop\nLocal setup? Posit cloud? GitHub Codespaces?\n\nHow to fetch/download example data\n….",
     "crumbs": [
       "Git hands-on workshop",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
@@ -137,18 +170,18 @@
     "href": "04_reporting.html",
     "title": "6  An introduction to Quarto",
     "section": "",
-    "text": "6.1 Slide deck",
+    "text": "6.1 Slide deck\nAdditional resources",
     "crumbs": [
       "Reporting",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
   },
   {
-    "objectID": "04_reporting.html#what-is-literate-programming",
-    "href": "04_reporting.html#what-is-literate-programming",
+    "objectID": "04_reporting.html#slide-deck",
+    "href": "04_reporting.html#slide-deck",
     "title": "6  An introduction to Quarto",
-    "section": "6.2 What is literate programming?",
-    "text": "6.2 What is literate programming?\n….",
+    "section": "",
+    "text": "Setup with SAS (setup, demo) and STATA",
     "crumbs": [
       "Reporting",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
