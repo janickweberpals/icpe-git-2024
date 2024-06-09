@@ -1,0 +1,117 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Let’s git it started",
+    "section": "",
+    "text": "About\nTransparency and reproducibility are major prerequisites for conducting meaningful real-world evidence (RWE) studies that are fit for decision-making. With HARPER and RECORD-PE, many advances have been made in the documentation and reporting of study protocols, study parameters, and results, but the principles for computational reproducibility of study results, version control and sharing of analytic code in RWE are not yet as established as in other quantitative disciplines like computational biology and health informatics, where there are potentially fewer barriers.\nAs many stakeholders (funding agencies, journals, regulators, data providers) increasingly require a transparent audit trail of all steps of a RWE study and reproducible analytic source code, this warrants pharmacoepidemiologists to upskill and implement reproducible workflows as routine practice. This course aims to give an introduction on practical study design templates (HARPER) and tools (git, quarto) to increase the transparency and reproducibility across the design, analysis and reporting stages of a RWE study.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Let’s git it started",
+    "section": "",
+    "text": "Tip\n\n\n\nCourse material: Course materials can be found at https://github.com/janickweberpals/icpe-git-2024",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#course-requisites",
+    "href": "index.html#course-requisites",
+    "title": "Let’s git it started",
+    "section": "Course requisites",
+    "text": "Course requisites\nThis course is designed for participants both new and experienced in pharmacoepidemiology. Whilst this may be most relevant for people who work hands-on with healthcare databases and so have some coding experience, any levels of expertise are welcome.\n\n\n\n\n\n\nImportant\n\n\n\nCourse participants should have a good understanding of basic pharmacoepidemiologic principles and ideally some experience with any statistical programming language.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-dependencies",
+    "href": "index.html#sec-dependencies",
+    "title": "Let’s git it started",
+    "section": "Dependencies",
+    "text": "Dependencies\nThis is a quarto project and R package dependencies are managed through the renv package. All packages and their versions can be viewed in the lockfile renv.lock. All required packages and the appropriate versions can be installed by running the following command:\n\nrenv::restore()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#reproducibility",
+    "href": "index.html#reproducibility",
+    "title": "Let’s git it started",
+    "section": "Reproducibility",
+    "text": "Reproducibility\nFollow these steps to reproduce this website:\n\n\n\n\n\n\nNote\n\n\n\n\nInstall all necessary dependencies (see above) and make sure Quarto is installed (usually comes automatically with RStudio installation)\nIn RStudio, run all scripts via quarto render or in RStudio Build &gt; Render Book",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#repository-structure-and-files",
+    "href": "index.html#repository-structure-and-files",
+    "title": "Let’s git it started",
+    "section": "Repository structure and files",
+    "text": "Repository structure and files\n\nDirectory overview\n\n\n.\n├── 01_protocol.qmd\n├── 02_intro.qmd\n├── 03_workshop.qmd\n├── 04_reporting.qmd\n├── LICENSE\n├── README.md\n├── _book\n├── _quarto.yml\n├── icpe-git-2024.Rproj\n├── icpe24_logo.png\n├── index.qmd\n├── index.rmarkdown\n├── quarto\n│   └── notes.qmd\n├── renv\n│   ├── activate.R\n│   ├── library\n│   ├── settings.json\n│   └── staging\n├── renv.lock\n└── update_README.R\n\n\n\n.Rprofile - defines paths, activates renv, options for Posit R package manager\nrenv/renv.lock - renv directories to manage R dependencies and versions used in this simulation\n.github - workflow files for automatic CI/CD on Github pages\nREADME - essential information about the project (README.Rmd renders to README.md via update_README.R after each quarto render command)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
+  },
+  {
+    "objectID": "01_protocol.html",
+    "href": "01_protocol.html",
+    "title": "2  Protocols for pre-specification",
+    "section": "",
+    "text": "2.1 HARPER\nAdditional information can go here",
+    "crumbs": [
+      "Protocol",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
+    ]
+  },
+  {
+    "objectID": "02_intro.html",
+    "href": "02_intro.html",
+    "title": "3  Introduction to Git",
+    "section": "",
+    "text": "3.1 Introduction to Git\nAdditional information can go here",
+    "crumbs": [
+      "Git introduction",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Git</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html",
+    "href": "03_workshop.html",
+    "title": "4  Git interactive hands-on workshop",
+    "section": "",
+    "text": "4.1 Git workshop\nAdditional information can go here",
+    "crumbs": [
+      "Git hands-on workshop",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "04_reporting.html",
+    "href": "04_reporting.html",
+    "title": "5  An introduction to Quarto",
+    "section": "",
+    "text": "5.1 Slide deck",
+    "crumbs": [
+      "Reporting",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "04_reporting.html#what-is-literate-programming",
+    "href": "04_reporting.html#what-is-literate-programming",
+    "title": "5  An introduction to Quarto",
+    "section": "5.2 What is literate programming?",
+    "text": "5.2 What is literate programming?\n….",
+    "crumbs": [
+      "Reporting",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+    ]
+  }
+]

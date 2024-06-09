@@ -1,0 +1,51 @@
+project:
+  type: book
+  post-render: 
+    - update_README.R
+    
+book:
+  title: "Let's git it started"
+  subtitle: "Transparency and reproducibility across the RWE study lifecycle"
+  author: "Anna Schultze, John Tazare (London School of Hygiene and Tropical Medicine), <br> Shirley V. Wang, Janick Weberpals (BWH & Harvard Medical School)"
+  description: |
+    
+    
+  chapters:
+    # landing page
+    - index.qmd
+  
+    - part: Protocol
+      chapters:
+        - 01_protocol.qmd
+        
+    - part: Git introduction
+      chapters:
+        - 02_intro.qmd
+
+    - part: Git hands-on workshop
+      chapters:
+        - 03_workshop.qmd
+        
+    - part: Reporting
+      chapters:
+        - 04_reporting.qmd
+
+  reader-mode: true
+  repo-url: https://github.com/janickweberpals/icpe-git-2024
+  repo-actions: [issue]
+
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+    theme: cosmo
+    engine: knitr
+    page-layout: full
+    link-external-icon: true
+    link-external-newwindow: true
+    # comments:
+    #   hypothesis: true
+
+# bibliography: references.bib
+# csl: epidemiology.csl
+

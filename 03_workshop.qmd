@@ -1,0 +1,14 @@
+---
+title: "Git interactive hands-on workshop"
+author:  John Tazare
+date: "`r Sys.Date()`"
+date-format: long
+engine: knitr
+# bibliography: references.bib
+# csl: epidemiology.csl
+editor: visual
+---
+
+## Git workshop
+
+Additional information can go here

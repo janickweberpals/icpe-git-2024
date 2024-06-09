@@ -1,0 +1,14 @@
+---
+title: "Introduction to Git"
+author:  Anna Schultze
+date: "`r Sys.Date()`"
+date-format: long
+engine: knitr
+# bibliography: references.bib
+# csl: epidemiology.csl
+editor: visual
+---
+
+## Introduction to Git
+
+Additional information can go here
