@@ -254,6 +254,19 @@
       ],
       "Hash": "18e9c28c1d3ca1560ce30658b22ce104"
     },
+    "pandoc": {
+      "Package": "pandoc",
+      "Version": "0.2.0",
+      "Source": "Repository",
+      "Repository": "REPO_NAME",
+      "Requirements": [
+        "R",
+        "fs",
+        "rappdirs",
+        "rlang"
+      ],
+      "Hash": "68f9a8e79f42f1b27258672f15acf632"
+    },
     "rappdirs": {
       "Package": "rappdirs",
       "Version": "0.3.3",

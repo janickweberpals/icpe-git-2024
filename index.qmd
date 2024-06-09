@@ -32,11 +32,11 @@ Course participants should have a good understanding of basic pharmacoepidemiolo
 
 ## Helpful pre-reads
 
-Weberpals J and Wang SV. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. doi: 10.1002/pds.5740.
+Weberpals J and Wang SV. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. [doi: 10.1002/pds.5740.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5740)
 
-Schultze A, Tazare J. The role of programming code sharing in improving the transparency of medical research. BMJ. 2023 Oct 17;383:2402. doi: 10.1136/bmj.p2402. PMID: 37848206.
+Schultze A, Tazare J. The role of programming code sharing in improving the transparency of medical research. BMJ. 2023 Oct 17;383:2402. [doi: 10.1136/bmj.p2402](https://www.bmj.com/content/383/bmj.p2402.long). PMID: 37848206.
 
-Wang SV, Pottegård A, Crown W, Arlett P, et al. HARmonized Protocol Template to Enhance Reproducibility of hypothesis evaluating real-world evidence studies on treatment effects: A good practices report of a joint ISPE/ISPOR task force. Pharmacoepidemiol Drug Saf. 2023 Jan;32(1):44-55. doi: 10.1002/pds.5507. Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.
+Wang SV, Pottegård A, Crown W, Arlett P, et al. HARmonized Protocol Template to Enhance Reproducibility of hypothesis evaluating real-world evidence studies on treatment effects: A good practices report of a joint ISPE/ISPOR task force. Pharmacoepidemiol Drug Saf. 2023 Jan;32(1):44-55. [doi: 10.1002/pds.5507](https://onlinelibrary.wiley.com/doi/10.1002/pds.5507). Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.
 
 ::: {.content-visible when-format="html"}
 ## Dependencies {#sec-dependencies .unnumbered}
