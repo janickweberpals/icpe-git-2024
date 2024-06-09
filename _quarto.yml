@@ -1,7 +1,5 @@
 project:
   type: book
-  post-render:
-    - update_README.R
     
 book:
   title: "Let's git it started"

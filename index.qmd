@@ -67,3 +67,14 @@ Overview of files and file types in this repository:
 -   .github - workflow files for automatic CI/CD on Github pages
 -   README - essential information about the project (README.Rmd renders to README.md via update_README.R after each `quarto render` command)
 :::
+
+```{r}
+#| echo: false
+#| eval: true
+
+rmarkdown::render(
+  input = "index.qmd", 
+  output_file = here::here('README.md'), 
+  output_format = 'md_document'
+  )
+```
