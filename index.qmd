@@ -70,7 +70,7 @@ Overview of files and file types in this repository:
 
 ```{r}
 #| echo: false
-#| eval: true
+#| eval: false
 
 rmarkdown::render(
   input = "index.qmd", 
