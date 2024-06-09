@@ -1,4 +1,5 @@
-# update README post-render
-#pandoc_path <- Sys.getenv('RSTUDIO_PANDOC')
-Sys.setenv(RSTUDIO_PANDOC=glue::glue("--{Sys.getenv('RSTUDIO_PANDOC')}"))
+# update README from index.qmd
+library(pandoc)
+library(rmarkdown)
+
 rmarkdown::render(input = "index.qmd", output_file = here::here('README.md'), output_format = 'md_document')
