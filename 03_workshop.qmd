@@ -11,4 +11,18 @@ editor: visual
 
 ## Git workshop
 
-Additional information can go here
+Additional information can go here, e.g.,
+
+-   Case study instructions
+
+-   Setup instructions
+
+    -   Installing git
+
+    -   Installing GitHub Desktop
+
+    -   Local setup? Posit cloud? [GitHub Codespaces](https://www.rstudio.com/conference/2022/talks/zero-setup-r-workshops-github/)?
+
+-   How to fetch/download example data
+
+-   ....

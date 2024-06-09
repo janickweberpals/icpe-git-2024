@@ -12,4 +12,10 @@ editor: visual
 
 ## HARPER
 
-Additional information can go here
+Additional information can go here, e.g.,
+
+-   Link to HARPER resouces (OSF)
+
+-   Main points to consider
+
+-   etc.

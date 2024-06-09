@@ -137,7 +137,7 @@
     "href": "04_reporting.html",
     "title": "6  An introduction to Quarto",
     "section": "",
-    "text": "6.1 Slide deck",
+    "text": "6.1 Slide deck\nAdditional resources",
     "crumbs": [
       "Reporting",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
@@ -149,6 +149,17 @@
     "title": "6  An introduction to Quarto",
     "section": "6.2 What is literate programming?",
     "text": "6.2 What is literate programming?\n….",
+    "crumbs": [
+      "Reporting",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "04_reporting.html#slide-deck",
+    "href": "04_reporting.html#slide-deck",
+    "title": "6  An introduction to Quarto",
+    "section": "",
+    "text": "Setup with SAS (setup, demo) and STATA",
     "crumbs": [
       "Reporting",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"

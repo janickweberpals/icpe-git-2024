@@ -16,6 +16,10 @@ editor: visual
 
 </iframe>
 
-## What is literate programming?
+Additional resources
 
-....
+-   Setup with [SAS](https://sassoftware.github.io/saspy/configuration.html#http) ([setup](https://www.harveyl888.com/outputs/quarto_02.html), [demo](https://www.harveyl888.com/outputs/quarto_02.html)) and [STATA](https://users.ssc.wisc.edu/~hemken/Stataworkshops/Statamarkdown/stata-and-r-markdown.html)
+
+    <iframe width="725" height="440.6641" src="https://www.youtube.com/embed/A2-Ti-c6w8c?si=iUK56qZdMkVbfl-2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+    </iframe>

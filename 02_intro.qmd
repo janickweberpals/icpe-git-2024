@@ -11,4 +11,16 @@ editor: visual
 
 ## Introduction to Git
 
-Additional information can go here
+Additional information can go here, e.g.,
+
+-   git workflow summary
+
+-   Glossary
+
+-   Most important commands
+
+    ```{bash, eval=F}
+    git add .
+    git commit
+    git push
+    ```
