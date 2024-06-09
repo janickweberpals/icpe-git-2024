@@ -70,58 +70,88 @@
     ]
   },
   {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "2  Syllabus",
+    "section": "",
+    "text": "Course Objectives\nAttendees of this advanced methods couse will learn how to implement transparent and reproducible workflows across the real-world evidence study lifecycle.\nflowchart TB\nA(Design stage) --&gt; B\nB(Analysis execution stage) --&gt; C\nC(Reporting stage)\n\n\n\n\nFigure 2.1: RWE study liefcycle.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-objectives",
+    "href": "syllabus.html#course-objectives",
+    "title": "2  Syllabus",
+    "section": "",
+    "text": "Design stage: Incorporate reproducible reporting of key study parameters at a study design and planning stage using the HARPER protocol\nAnalysis stage: Version control and share analytic code at the analysis and execution stage of the study using git and Github\nReporting stage: Use literate programming by combining narrative language, analytic code and study results for transparent and reproducible study reporting",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#syllabus",
+    "href": "syllabus.html#syllabus",
+    "title": "2  Syllabus",
+    "section": "Syllabus",
+    "text": "Syllabus\nIn this practical hands-on course, we introduce resources and tools needed for the transparent and reproducible conduct of RWE studies following FAIR (Findable, Accessible, Interoperable and Reproducible) principles.\n\n\n\n\nTable 2.1: Detailed course timetable\n\n\n\n\n\n\n\n\n\nTime\nTopic\nInstructor\nDescription\n\n\n\n\n9:00am - 9:15am\nWelcome and introduction (15 mins)\nJanick Weberpals\nOverview of course contents and introduction to the topic of (computational) reproducibility and use cases\n\n\n9:15am - 9:35am\nDESIGN STAGE (20 mins)\nShirley V. Wang\nA harmonized protocol template to enhance reproducibility of hypothesis evaluating real-world evidence studies on treatment effects (HARPER protocol)\n\n\n9:35am - 10:15am\nANALYSIS STAGE (40 mins)\nAnna Schultze\nIntroduction to the Git distributed version control system and remote repositories (e.g., GitHub) to track changes, collaborate, disseminate and archive analytic source code through dedicated project repositories that maintain a complete audit trail of all relevant study documents including code lists\n\n\n10:15am - 10:30am\nINTERACTIVE WORKSHOP (introduction and setup, 15 mins)\nJohn Tazare\nIntroduction to interactive case study for part in which every course participant can try git hands-on (note: this is agnostic to any statistical software language =&gt; bring your own programming software)\n\n\n10:30am - 10:50am\nCOFFEE BREAK (20 mins)\nNA\nParticipants will have the chance to install git and GitHub Desktop and download the case study data in case they haven't done so already\n\n\n10:50am - 11:50am\nINTERACTIVE WORKSHOP(60 mins)\nJohn Tazare (Anna Schultze, Janick Weberpals)\nTogether with instructors, the course participants will run part of an example case study using simulated data. This part will cover both the Github Desktop (GUI) and command line (attendants can choose)\n\n\n11:50am - 12:25pm\nREPORTING STAGE (35 mins)\nJanick Weberpals\nIntroduction and examples of literate programming using the Quarto technical reporting system\n\n\n12:25pm - 12:30pm\nCOURSE CONCLUSION (5 mins)\nJanick Weberpals\nFuture direction and trends & resources for where to go to learn more\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTime\nTopic\nInstructor\nDescription\n\n\n\n\n9:00am - 9:15am\nWelcome and introduction (15 mins)\nJanick Weberpals\nOverview of course contents and introduction to the topic of (computational) reproducibility and use cases\n\n\n9:15am - 9:35am\nDESIGN STAGE (20 mins)\nShirley V. Wang\nA harmonized protocol template to enhance reproducibility of hypothesis evaluating real-world evidence studies on treatment effects (HARPER protocol)\n\n\n9:35am - 10:15am\nANALYSIS STAGE (40 mins)\nAnna Schultze\nIntroduction to the Git distributed version control system and remote repositories (e.g., GitHub) to track changes, collaborate, disseminate and archive analytic source code through dedicated project repositories that maintain a complete audit trail of all relevant study documents including code lists\n\n\n10:15am - 10:30am\nINTERACTIVE WORKSHOP (introduction and setup, 15 mins)\nJohn Tazare\nIntroduction to interactive case study for part in which every course participant can try git hands-on (note: this is agnostic to any statistical software language =&gt; bring your own programming software)\n\n\n10:30am - 10:50am\nCOFFEE BREAK (20 mins)\n\nParticipants will have the chance to install git and GitHub Desktop and download the case study data in case they haven’t done so already\n\n\n10:50am - 11:50am\nINTERACTIVE WORKSHOP (60 mins)\nJohn Tazare (Anna Schultze, Janick Weberpals)\nTogether with instructors, the course participants will run part of an example case study using simulated data. This part will cover both the Github Desktop (GUI) and command line (attendants can choose)\n\n\n11:50am - 12:25pm\nREPORTING STAGE (35 mins)\nJanick Weberpals\nIntroduction and examples of literate programming using the Quarto technical reporting system\n\n\n12:25pm - 12:30pm\nCOURSE CONCLUSION (5 mins)\nJanick Weberpals\nFuture direction and trends & resources for where to go to learn more",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
     "objectID": "01_protocol.html",
     "href": "01_protocol.html",
-    "title": "2  Protocols for pre-specification",
+    "title": "3  Protocols for pre-specification",
     "section": "",
-    "text": "2.1 HARPER\nAdditional information can go here",
+    "text": "3.1 HARPER\nAdditional information can go here",
     "crumbs": [
       "Protocol",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
     ]
   },
   {
     "objectID": "02_intro.html",
     "href": "02_intro.html",
-    "title": "3  Introduction to Git",
+    "title": "4  Introduction to Git",
     "section": "",
-    "text": "3.1 Introduction to Git\nAdditional information can go here",
+    "text": "4.1 Introduction to Git\nAdditional information can go here",
     "crumbs": [
       "Git introduction",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Git</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to Git</span>"
     ]
   },
   {
     "objectID": "03_workshop.html",
     "href": "03_workshop.html",
-    "title": "4  Git interactive hands-on workshop",
+    "title": "5  Git interactive hands-on workshop",
     "section": "",
-    "text": "4.1 Git workshop\nAdditional information can go here",
+    "text": "5.1 Git workshop\nAdditional information can go here",
     "crumbs": [
       "Git hands-on workshop",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
   {
     "objectID": "04_reporting.html",
     "href": "04_reporting.html",
-    "title": "5  An introduction to Quarto",
+    "title": "6  An introduction to Quarto",
     "section": "",
-    "text": "5.1 Slide deck",
+    "text": "6.1 Slide deck",
     "crumbs": [
       "Reporting",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
   },
   {
     "objectID": "04_reporting.html#what-is-literate-programming",
     "href": "04_reporting.html#what-is-literate-programming",
-    "title": "5  An introduction to Quarto",
-    "section": "5.2 What is literate programming?",
-    "text": "5.2 What is literate programming?\n….",
+    "title": "6  An introduction to Quarto",
+    "section": "6.2 What is literate programming?",
+    "text": "6.2 What is literate programming?\n….",
     "crumbs": [
       "Reporting",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
   }
 ]
