@@ -30,7 +30,7 @@ Course participants should have a good understanding of basic pharmacoepidemiolo
 :::
 :::
 
-## Helpful pre-reads
+## Helpful pre-reads {.unnumbered}
 
 Weberpals J and Wang SV. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. [doi: 10.1002/pds.5740.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5740)
 
