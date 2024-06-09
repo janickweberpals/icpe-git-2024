@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Anna Schultze">
+<meta name="author" content="Janick Weberpals">
 <meta name="dcterms.date" content="2024-06-09">
 
-<title>Let’s git it started - 3&nbsp; Introduction to Git</title>
+<title>Let’s git it started - 5&nbsp; An introduction to Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./03_workshop.html" rel="next">
-<link href="./01_protocol.html" rel="prev">
+<link href="./03_workshop.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -83,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02_intro.html">Git introduction</a></li><li class="breadcrumb-item"><a href="./02_intro.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction to Git</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04_reporting.html">Reporting</a></li><li class="breadcrumb-item"><a href="./04_reporting.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">An introduction to Quarto</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -150,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02_intro.html" class="sidebar-item-text sidebar-link active">
+  <a href="./02_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction to Git</span></span></a>
   </div>
 </li>
@@ -184,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04_reporting.html" class="sidebar-item-text sidebar-link">
+  <a href="./04_reporting.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">An introduction to Quarto</span></span></a>
   </div>
 </li>
@@ -200,16 +199,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction-to-git" id="toc-introduction-to-git" class="nav-link active" data-scroll-target="#introduction-to-git"><span class="header-section-number">3.1</span> Introduction to Git</a></li>
+  <li><a href="#slide-deck" id="toc-slide-deck" class="nav-link active" data-scroll-target="#slide-deck"><span class="header-section-number">5.1</span> Slide deck</a></li>
+  <li><a href="#what-is-literate-programming" id="toc-what-is-literate-programming" class="nav-link" data-scroll-target="#what-is-literate-programming"><span class="header-section-number">5.2</span> What is literate programming?</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/janickweberpals/icpe-git-2024/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02_intro.html">Git introduction</a></li><li class="breadcrumb-item"><a href="./02_intro.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction to Git</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04_reporting.html">Reporting</a></li><li class="breadcrumb-item"><a href="./04_reporting.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">An introduction to Quarto</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction to Git</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">An introduction to Quarto</span></h1>
+<p class="subtitle lead">Literate programming for transparent research reporting</p>
 </div>
 
 
@@ -219,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Anna Schultze </p>
+             <p>Janick Weberpals </p>
           </div>
   </div>
     
@@ -238,9 +239,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction-to-git" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="introduction-to-git"><span class="header-section-number">3.1</span> Introduction to Git</h2>
-<p>Additional information can go here</p>
+<section id="slide-deck" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="slide-deck"><span class="header-section-number">5.1</span> Slide deck</h2>
+<iframe src="https://janickweberpals.github.io/quarto_icpe_2024/index.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
+</section>
+<section id="what-is-literate-programming" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="what-is-literate-programming"><span class="header-section-number">5.2</span> What is literate programming?</h2>
+<p>….</p>
 
 
 </section>
@@ -336,6 +342,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -379,7 +390,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -655,14 +670,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="./01_protocol.html" class="pagination-link  aria-label=" &lt;span="" for="" pre-specification&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Protocols for pre-specification</span></span>
+      <a href="./03_workshop.html" class="pagination-link" aria-label="Git interactive hands-on workshop">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Git interactive hands-on workshop</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./03_workshop.html" class="pagination-link" aria-label="<span class='chapter-number'>4</span>&nbsp; <span class='chapter-title'>Git interactive hands-on workshop</span>">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Git interactive hands-on workshop</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

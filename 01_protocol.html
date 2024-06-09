@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Anna Schultze, John Tazare (London School of Hygiene and Tropical Medicine),   Shirley V. Wang, Janick Weberpals (BWH &amp; Harvard Medical School)">
+<meta name="author" content="Shirley V. Wang">
 <meta name="dcterms.date" content="2024-06-09">
 
-<title>Let’s git it started</title>
+<title>Let’s git it started - 2&nbsp; Protocols for pre-specification</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,40 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -66,7 +32,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./01_protocol.html" rel="next">
+<link href="./02_intro.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -116,7 +83,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">README</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01_protocol.html">Protocol</a></li><li class="breadcrumb-item"><a href="./01_protocol.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Protocols for pre-specification</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -151,7 +118,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">README</span></span></a>
   </div>
 </li>
@@ -166,7 +133,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01_protocol.html" class="sidebar-item-text sidebar-link">
+  <a href="./01_protocol.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Protocols for pre-specification</span></span></a>
   </div>
 </li>
@@ -233,24 +200,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
-  <li><a href="#course-requisites" id="toc-course-requisites" class="nav-link" data-scroll-target="#course-requisites">Course requisites</a></li>
-  <li><a href="#sec-dependencies" id="toc-sec-dependencies" class="nav-link" data-scroll-target="#sec-dependencies">Dependencies</a></li>
-  <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">Reproducibility</a></li>
-  <li><a href="#repository-structure-and-files" id="toc-repository-structure-and-files" class="nav-link" data-scroll-target="#repository-structure-and-files">Repository structure and files</a>
-  <ul class="collapse">
-  <li><a href="#directory-overview" id="toc-directory-overview" class="nav-link" data-scroll-target="#directory-overview">Directory overview</a></li>
-  </ul></li>
+  <li><a href="#harper" id="toc-harper" class="nav-link active" data-scroll-target="#harper"><span class="header-section-number">2.1</span> HARPER</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/janickweberpals/icpe-git-2024/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01_protocol.html">Protocol</a></li><li class="breadcrumb-item"><a href="./01_protocol.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Protocols for pre-specification</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Let’s git it started</h1>
-<p class="subtitle lead">Transparency and reproducibility across the RWE study lifecycle</p>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Protocols for pre-specification</span></h1>
+<p class="subtitle lead">HARPER</p>
 </div>
 
 
@@ -260,7 +220,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Anna Schultze, John Tazare (London School of Hygiene and Tropical Medicine), <br> Shirley V. Wang, Janick Weberpals (BWH &amp; Harvard Medical School) </p>
+             <p>Shirley V. Wang </p>
           </div>
   </div>
     
@@ -279,112 +239,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="icpe24_logo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="728"></p>
-</figure>
-</div>
-<section id="about" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="about">About</h2>
-<p>Transparency and reproducibility are major prerequisites for conducting meaningful real-world evidence (RWE) studies that are fit for decision-making. With HARPER and RECORD-PE, many advances have been made in the documentation and reporting of study protocols, study parameters, and results, but the principles for computational reproducibility of study results, version control and sharing of analytic code in RWE are not yet as established as in other quantitative disciplines like computational biology and health informatics, where there are potentially fewer barriers.</p>
-<p>As many stakeholders (funding agencies, journals, regulators, data providers) increasingly require a transparent audit trail of all steps of a RWE study and reproducible analytic source code, this warrants pharmacoepidemiologists to upskill and implement reproducible workflows as routine practice. This course aims to give an introduction on practical study design templates (HARPER) and tools (git, quarto) to increase the transparency and reproducibility across the design, analysis and reporting stages of a RWE study.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Course material: Course materials can be found at <a href="https://github.com/janickweberpals/icpe-git-2024" class="uri">https://github.com/janickweberpals/icpe-git-2024</a></p>
-</div>
-</div>
-</section>
-<section id="course-requisites" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="course-requisites">Course requisites</h2>
-<p>This course is designed for participants both new and experienced in pharmacoepidemiology. Whilst this may be most relevant for people who work hands-on with healthcare databases and so have some coding experience, any levels of expertise are welcome.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Course participants should have a good understanding of basic pharmacoepidemiologic principles and ideally some experience with any statistical programming language.</p>
-</div>
-</div>
-</section>
-<section id="sec-dependencies" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="sec-dependencies">Dependencies</h2>
-<p>This is a quarto project and R package dependencies are managed through the <code>renv</code> package. All packages and their versions can be viewed in the lockfile <code>renv.lock</code>. All required packages and the appropriate versions can be installed by running the following command:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>renv<span class="sc">::</span><span class="fu">restore</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="reproducibility" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="reproducibility">Reproducibility</h2>
-<p>Follow these steps to reproduce this website:</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li>Install all necessary dependencies (see above) and <a href="https://quarto.org/docs/get-started/">make sure Quarto is installed</a> (usually comes automatically with RStudio installation)</li>
-<li>In RStudio, run all scripts via <code>quarto render</code> or in RStudio <code>Build &gt; Render Book</code></li>
-</ol>
-</div>
-</div>
-</section>
-<section id="repository-structure-and-files" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="repository-structure-and-files">Repository structure and files</h2>
-<section id="directory-overview" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="directory-overview">Directory overview</h3>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>.
-├── 01_protocol.qmd
-├── 02_intro.qmd
-├── 03_workshop.qmd
-├── 04_reporting.qmd
-├── LICENSE
-├── README.md
-├── _book
-├── _quarto.yml
-├── icpe-git-2024.Rproj
-├── icpe24_logo.png
-├── index.qmd
-├── index.rmarkdown
-├── quarto
-│   └── notes.qmd
-├── renv
-│   ├── activate.R
-│   ├── library
-│   ├── settings.json
-│   └── staging
-├── renv.lock
-└── update_README.R</code></pre>
-</div>
-</div>
-<ul>
-<li>.Rprofile - defines paths, activates <code>renv</code>, options for Posit R package manager</li>
-<li>renv/renv.lock - <code>renv</code> directories to manage R dependencies and versions used in this simulation</li>
-<li>.github - workflow files for automatic CI/CD on Github pages</li>
-<li>README - essential information about the project (README.Rmd renders to README.md via update_README.R after each <code>quarto render</code> command)</li>
-</ul>
+<section id="harper" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="harper"><span class="header-section-number">2.1</span> HARPER</h2>
+<p>Additional information can go here</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -478,6 +337,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -521,7 +385,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -797,10 +665,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="README">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">README</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./01_protocol.html" class="pagination-link" aria-label="<span class='chapter-number'>2</span>&nbsp; <span class='chapter-title'>Protocols for pre-specification</span>">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Protocols for pre-specification</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./02_intro.html" class="pagination-link" aria-label="Introduction to Git">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction to Git</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

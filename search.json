@@ -44,7 +44,7 @@
     "href": "index.html#reproducibility",
     "title": "Let’s git it started",
     "section": "Reproducibility",
-    "text": "Reproducibility\nFollow these steps to reproduce this website:\n\n\n\n\n\n\nNote\n\n\n\n\nInstall all necessary dependencies (see above) and make sure Quarto is installed (usually comes automatically with RStudio installation)\nIn RStudio, run all scripts via quarto render or in RStudio Build &gt; Render Book",
+    "text": "Reproducibility\nFollow these steps if you wish to reproduce this website:\n\n\n\n\n\n\nNote\n\n\n\n\nInstall all necessary dependencies (see above) and make sure Quarto is installed (usually comes automatically with RStudio installation)\nUsing command line, run all scripts via quarto render or in RStudio Build &gt; Render Book",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
     ]
@@ -54,7 +54,7 @@
     "href": "index.html#repository-structure-and-files",
     "title": "Let’s git it started",
     "section": "Repository structure and files",
-    "text": "Repository structure and files\n\nDirectory overview\n\n\n.\n├── 01_protocol.qmd\n├── 02_intro.qmd\n├── 03_workshop.qmd\n├── 04_reporting.qmd\n├── LICENSE\n├── README.md\n├── _book\n├── _quarto.yml\n├── icpe-git-2024.Rproj\n├── icpe24_logo.png\n├── index.qmd\n├── index.rmarkdown\n├── quarto\n│   └── notes.qmd\n├── renv\n│   ├── activate.R\n│   ├── library\n│   ├── settings.json\n│   └── staging\n├── renv.lock\n└── update_README.R\n\n\n\n.Rprofile - defines paths, activates renv, options for Posit R package manager\nrenv/renv.lock - renv directories to manage R dependencies and versions used in this simulation\n.github - workflow files for automatic CI/CD on Github pages\nREADME - essential information about the project (README.Rmd renders to README.md via update_README.R after each quarto render command)",
+    "text": "Repository structure and files\n\nDirectory overview\n\n\n.\n├── 01_protocol.qmd\n├── 02_intro.qmd\n├── 03_workshop.qmd\n├── 04_reporting.qmd\n├── LICENSE\n├── README.md\n├── _book\n│   ├── 01_protocol.html\n│   ├── 02_intro.html\n│   ├── 03_workshop.html\n│   ├── 04_reporting.html\n│   ├── icpe24_logo.png\n│   ├── index.html\n│   ├── search.json\n│   └── site_libs\n├── _quarto.yml\n├── icpe24_logo.png\n├── index.qmd\n├── index.rmarkdown\n├── quarto\n│   └── notes.qmd\n├── renv\n│   ├── activate.R\n│   ├── library\n│   ├── settings.json\n│   └── staging\n├── renv.lock\n└── update_README.R\n\n\n\n.Rprofile - defines paths, activates renv, options for Posit R package manager\nrenv/renv.lock - renv directories to manage R dependencies and versions used in this simulation\n.github - workflow files for automatic CI/CD on Github pages\nREADME - essential information about the project (README.Rmd renders to README.md via update_README.R after each quarto render command)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
     ]
