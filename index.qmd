@@ -22,6 +22,10 @@ Course material: Course materials can be found at <https://github.com/janickwebe
 :::
 :::
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBPAY8Qv8iCTrckw7MXAJPKfO8WtvZCSZAcnLx097G2AHk78MY-AieJqCgdGVpYNobGfemmAINFBkK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+</iframe>
+
 ## Course requisites {.unnumbered}
 
 This course is designed for participants both new and experienced in pharmacoepidemiology. Whilst this may be most relevant for people who work hands-on with healthcare databases and so have some coding experience, any levels of expertise are welcome.

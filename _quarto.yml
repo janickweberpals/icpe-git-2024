@@ -12,7 +12,7 @@ book:
     # landing page
     - index.qmd
     - syllabus.qmd
-  
+    
     - part: Protocol
       chapters:
         - 01_protocol.qmd

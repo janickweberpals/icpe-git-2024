@@ -6,6 +6,14 @@ date-format: long
 code-fold: false
 ---
 
+```{r}
+#| label: setup
+#| include: false
+library(googlesheets4)
+library(gt)
+library(dplyr)
+```
+
 This site provides some further information on the objectives and syllabus/organization of the course.
 
 > Course Date: August 25, 2024 (9am-12:30pm, Berlin)
@@ -39,23 +47,12 @@ In this practical hands-on course, we introduce resources and tools needed for t
 #| message: false
 #| echo: false
 
-library(googlesheets4)
-library(gt)
-
 gs4_deauth()
 read_sheet(
   ss = Sys.getenv("timetable_url")
   ) |> 
-  gt()
+  filter(Time != "Total") |> 
+  select(-Minutes) |> 
+  gt() |> 
+  cols_align(align = "left")
 ```
-
-| Time                           | Topic                                                      | Instructor                                    | Description                                                                                                                                                                                                                                                                                                    |
-|---------------|---------------------|----------------|----------------------|
-| 9:00am - 9:15am                | Welcome and introduction (15 mins)                         | Janick Weberpals                              | Overview of course contents and introduction to the topic of (computational) reproducibility and use cases                                                                                                                                                                                                     |
-| 9:15am - 9:35am                | **DESIGN STAGE** (20 mins)                                 | Shirley V. Wang                               | A harmonized protocol template to enhance reproducibility of hypothesis evaluating real-world evidence studies on treatment effects (HARPER protocol)                                                                                                                                                          |
-| 9:35am - 10:[1]{.underline}5am | **ANALYSIS STAGE** (40 mins)                               | Anna Schultze                                 | Introduction to the Git distributed version control system and remote repositories (e.g., GitHub) to track changes, collaborate, disseminate and archive analytic source code through dedicated project repositories that maintain a complete audit trail of all relevant study documents including code lists |
-| 10:15am - 10:30am              | I**NTERACTIVE WORKSHOP** (introduction and setup, 15 mins) | John Tazare                                   | Introduction to interactive case study for part in which every course participant can try git hands-on (note: this is agnostic to any statistical software language =\> bring your own programming software)                                                                                                   |
-| 10:30am - 10:50am              | **COFFEE BREAK** (20 mins)                                 |                                               | Participants will have the chance to install git and GitHub Desktop and download the case study data in case they haven't done so already                                                                                                                                                                      |
-| 10:50am - 11:50am              | I**NTERACTIVE WORKSHOP** (60 mins)                         | John Tazare (Anna Schultze, Janick Weberpals) | Together with instructors, the course participants will run part of an example case study using simulated data. This part will cover both the Github Desktop (GUI) and command line (attendants can choose)                                                                                                    |
-| 11:50am - 12:25pm              | **REPORTING STAGE** (35 mins)                              | Janick Weberpals                              | Introduction and examples of literate programming using the Quarto technical reporting system                                                                                                                                                                                                                  |
-| 12:25pm - 12:30pm              | COURSE CONCLUSION (5 mins)                                 | Janick Weberpals                              | Future direction and trends & resources for where to go to learn more                                                                                                                                                                                                                                          |

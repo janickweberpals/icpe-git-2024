@@ -30,6 +30,16 @@
     ]
   },
   {
+    "objectID": "index.html#helpful-pre-reads",
+    "href": "index.html#helpful-pre-reads",
+    "title": "Let’s git it started",
+    "section": "Helpful pre-reads",
+    "text": "Helpful pre-reads\nWeberpals J and Wang SV. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. doi: 10.1002/pds.5740.\nSchultze A, Tazare J. The role of programming code sharing in improving the transparency of medical research. BMJ. 2023 Oct 17;383:2402. doi: 10.1136/bmj.p2402. PMID: 37848206.\nWang SV, Pottegård A, Crown W, Arlett P, et al. HARmonized Protocol Template to Enhance Reproducibility of hypothesis evaluating real-world evidence studies on treatment effects: A good practices report of a joint ISPE/ISPOR task force. Pharmacoepidemiol Drug Saf. 2023 Jan;32(1):44-55. doi: 10.1002/pds.5507. Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
+  },
+  {
     "objectID": "index.html#sec-dependencies",
     "href": "index.html#sec-dependencies",
     "title": "Let’s git it started",
@@ -60,71 +70,6 @@
     ]
   },
   {
-    "objectID": "01_protocol.html",
-    "href": "01_protocol.html",
-    "title": "2  Protocols for pre-specification",
-    "section": "",
-    "text": "2.1 HARPER\nAdditional information can go here",
-    "crumbs": [
-      "Protocol",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
-    ]
-  },
-  {
-    "objectID": "02_intro.html",
-    "href": "02_intro.html",
-    "title": "3  Introduction to Git",
-    "section": "",
-    "text": "3.1 Introduction to Git\nAdditional information can go here",
-    "crumbs": [
-      "Git introduction",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Git</span>"
-    ]
-  },
-  {
-    "objectID": "03_workshop.html",
-    "href": "03_workshop.html",
-    "title": "4  Git interactive hands-on workshop",
-    "section": "",
-    "text": "4.1 Git workshop\nAdditional information can go here",
-    "crumbs": [
-      "Git hands-on workshop",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
-    ]
-  },
-  {
-    "objectID": "04_reporting.html",
-    "href": "04_reporting.html",
-    "title": "5  An introduction to Quarto",
-    "section": "",
-    "text": "5.1 Slide deck",
-    "crumbs": [
-      "Reporting",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>An introduction to Quarto</span>"
-    ]
-  },
-  {
-    "objectID": "04_reporting.html#what-is-literate-programming",
-    "href": "04_reporting.html#what-is-literate-programming",
-    "title": "5  An introduction to Quarto",
-    "section": "5.2 What is literate programming?",
-    "text": "5.2 What is literate programming?\n….",
-    "crumbs": [
-      "Reporting",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>An introduction to Quarto</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#helpful-pre-reads",
-    "href": "index.html#helpful-pre-reads",
-    "title": "Let’s git it started",
-    "section": "Helpful pre-reads",
-    "text": "Helpful pre-reads\nWeberpals J and Wang SV. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. doi: 10.1002/pds.5740.\nSchultze A, Tazare J. The role of programming code sharing in improving the transparency of medical research. BMJ. 2023 Oct 17;383:2402. doi: 10.1136/bmj.p2402. PMID: 37848206.\nWang SV, Pottegård A, Crown W, Arlett P, et al. HARmonized Protocol Template to Enhance Reproducibility of hypothesis evaluating real-world evidence studies on treatment effects: A good practices report of a joint ISPE/ISPOR task force. Pharmacoepidemiol Drug Saf. 2023 Jan;32(1):44-55. doi: 10.1002/pds.5507. Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
-    ]
-  },
-  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "2  Syllabus",
@@ -149,59 +94,64 @@
     "href": "syllabus.html#syllabus",
     "title": "2  Syllabus",
     "section": "Syllabus",
-    "text": "Syllabus\nIn this practical hands-on course, we introduce resources and tools needed for the transparent and reproducible conduct of RWE studies following FAIR (Findable, Accessible, Interoperable and Reproducible) principles.\n\n\n\n\nTable 2.1: Detailed course timetable\n\n\n\n\n\n\n\n\n\nTime\nTopic\nInstructor\nDescription\n\n\n\n\n9:00am - 9:15am\nWelcome and introduction (15 mins)\nJanick Weberpals\nOverview of course contents and introduction to the topic of (computational) reproducibility and use cases\n\n\n9:15am - 9:35am\nDESIGN STAGE (20 mins)\nShirley V. Wang\nA harmonized protocol template to enhance reproducibility of hypothesis evaluating real-world evidence studies on treatment effects (HARPER protocol)\n\n\n9:35am - 10:15am\nANALYSIS STAGE (40 mins)\nAnna Schultze\nIntroduction to the Git distributed version control system and remote repositories (e.g., GitHub) to track changes, collaborate, disseminate and archive analytic source code through dedicated project repositories that maintain a complete audit trail of all relevant study documents including code lists\n\n\n10:15am - 10:30am\nINTERACTIVE WORKSHOP (introduction and setup, 15 mins)\nJohn Tazare\nIntroduction to interactive case study for part in which every course participant can try git hands-on (note: this is agnostic to any statistical software language =&gt; bring your own programming software)\n\n\n10:30am - 10:50am\nCOFFEE BREAK (20 mins)\nNA\nParticipants will have the chance to install git and GitHub Desktop and download the case study data in case they haven't done so already\n\n\n10:50am - 11:50am\nINTERACTIVE WORKSHOP(60 mins)\nJohn Tazare (Anna Schultze, Janick Weberpals)\nTogether with instructors, the course participants will run part of an example case study using simulated data. This part will cover both the Github Desktop (GUI) and command line (attendants can choose)\n\n\n11:50am - 12:25pm\nREPORTING STAGE (35 mins)\nJanick Weberpals\nIntroduction and examples of literate programming using the Quarto technical reporting system\n\n\n12:25pm - 12:30pm\nCOURSE CONCLUSION (5 mins)\nJanick Weberpals\nFuture direction and trends & resources for where to go to learn more\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTime\nTopic\nInstructor\nDescription\n\n\n\n\n9:00am - 9:15am\nWelcome and introduction (15 mins)\nJanick Weberpals\nOverview of course contents and introduction to the topic of (computational) reproducibility and use cases\n\n\n9:15am - 9:35am\nDESIGN STAGE (20 mins)\nShirley V. Wang\nA harmonized protocol template to enhance reproducibility of hypothesis evaluating real-world evidence studies on treatment effects (HARPER protocol)\n\n\n9:35am - 10:15am\nANALYSIS STAGE (40 mins)\nAnna Schultze\nIntroduction to the Git distributed version control system and remote repositories (e.g., GitHub) to track changes, collaborate, disseminate and archive analytic source code through dedicated project repositories that maintain a complete audit trail of all relevant study documents including code lists\n\n\n10:15am - 10:30am\nINTERACTIVE WORKSHOP (introduction and setup, 15 mins)\nJohn Tazare\nIntroduction to interactive case study for part in which every course participant can try git hands-on (note: this is agnostic to any statistical software language =&gt; bring your own programming software)\n\n\n10:30am - 10:50am\nCOFFEE BREAK (20 mins)\n\nParticipants will have the chance to install git and GitHub Desktop and download the case study data in case they haven’t done so already\n\n\n10:50am - 11:50am\nINTERACTIVE WORKSHOP (60 mins)\nJohn Tazare (Anna Schultze, Janick Weberpals)\nTogether with instructors, the course participants will run part of an example case study using simulated data. This part will cover both the Github Desktop (GUI) and command line (attendants can choose)\n\n\n11:50am - 12:25pm\nREPORTING STAGE (35 mins)\nJanick Weberpals\nIntroduction and examples of literate programming using the Quarto technical reporting system\n\n\n12:25pm - 12:30pm\nCOURSE CONCLUSION (5 mins)\nJanick Weberpals\nFuture direction and trends & resources for where to go to learn more",
+    "text": "Syllabus\nIn this practical hands-on course, we introduce resources and tools needed for the transparent and reproducible conduct of RWE studies following FAIR (Findable, Accessible, Interoperable and Reproducible) principles.\n\n\n\n\nTable 2.1: Detailed course timetable\n\n\n\n\n\n\n\n\n\nTime\nTopic\nInstructor\nDescription\n\n\n\n\n9:00am - 9:15am\nWelcome and introduction\nJanick Weberpals\nOverview of course contents and introduction to the topic of (computational) reproducibility and use cases\n\n\n9:15am - 9:35am\nDESIGN STAGE\nShirley V. Wang\nA harmonized protocol template to enhance reproducibility of hypothesis evaluating real-world evidence studies on treatment effects (HARPER protocol)\n\n\n9:35am - 10:15am\nANALYSIS STAGE\nAnna Schultze\nIntroduction to the Git distributed version control system and remote repositories (e.g., GitHub) to track changes, collaborate, disseminate and archive analytic source code through dedicated project repositories that maintain a complete audit trail of all relevant study documents including code lists\n\n\n10:15am - 10:30am\nINTERACTIVE WORKSHOP (introduction and setup)\nJohn Tazare\nIntroduction to interactive case study for part in which every course participant can try git hands-on (note: this is agnostic to any statistical software language =&gt; bring your own programming software)\n\n\n10:30am - 10:50am\nCOFFEE BREAK\n-\nParticipants will have the chance to install git and GitHub Desktop and download the case study data in case they haven't done so already\n\n\n10:50am - 11:50am\nINTERACTIVE WORKSHOP\nJohn Tazare (Anna Schultze, Janick Weberpals)\nTogether with instructors, the course participants will run part of an example case study using simulated data. This part will cover both the Github Desktop (GUI) and command line (attendants can choose)\n\n\n11:50am - 12:25pm\nREPORTING STAGE\nJanick Weberpals\nIntroduction and examples of literate programming using the Quarto technical reporting system\n\n\n12:25pm - 12:30pm\nCOURSE CONCLUSION\nJanick Weberpals\nFuture direction and trends & resources for where to go to learn more\n\n\nTotal (hours)\nNA\nNA\nNA",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
     ]
   },
   {
-    "objectID": "syllabus.html#course-requisites",
-    "href": "syllabus.html#course-requisites",
-    "title": "2  Syllabus",
-    "section": "Course requisites",
-    "text": "Course requisites\nThis course is designed for participants both new and experienced in pharmacoepidemiology. Whilst this may be most relevant for people who work hands-on with healthcare databases and so have some coding experience, any levels of expertise are welcome.\n\n\n\n\n\n\nImportant\n\n\n\nCourse participants should have a good understanding of basic pharmacoepidemiologic principles and ideally some experience with any statistical programming language.",
+    "objectID": "01_protocol.html",
+    "href": "01_protocol.html",
+    "title": "3  Protocols for pre-specification",
+    "section": "",
+    "text": "3.1 HARPER\nAdditional information can go here",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
+      "Protocol",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
     ]
   },
   {
-    "objectID": "syllabus.html#helpful-pre-reads",
-    "href": "syllabus.html#helpful-pre-reads",
-    "title": "2  Syllabus",
-    "section": "Helpful pre-reads",
-    "text": "Helpful pre-reads\nWeberpals J and Wang SV. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. doi: 10.1002/pds.5740.\nSchultze A, Tazare J. The role of programming code sharing in improving the transparency of medical research. BMJ. 2023 Oct 17;383:2402. doi: 10.1136/bmj.p2402. PMID: 37848206.\nWang SV, Pottegård A, Crown W, Arlett P, et al. HARmonized Protocol Template to Enhance Reproducibility of hypothesis evaluating real-world evidence studies on treatment effects: A good practices report of a joint ISPE/ISPOR task force. Pharmacoepidemiol Drug Saf. 2023 Jan;32(1):44-55. doi: 10.1002/pds.5507. Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.",
+    "objectID": "02_intro.html",
+    "href": "02_intro.html",
+    "title": "4  Introduction to Git",
+    "section": "",
+    "text": "4.1 Introduction to Git\nAdditional information can go here",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
+      "Git introduction",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to Git</span>"
     ]
   },
   {
-    "objectID": "syllabus.html#sec-dependencies",
-    "href": "syllabus.html#sec-dependencies",
-    "title": "2  Syllabus",
-    "section": "Dependencies",
-    "text": "Dependencies\nThis is a quarto project and R package dependencies are managed through the renv package. All packages and their versions can be viewed in the lockfile renv.lock. All required packages and the appropriate versions can be installed by running the following command:\n\nrenv::restore()",
+    "objectID": "03_workshop.html",
+    "href": "03_workshop.html",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "",
+    "text": "5.1 Git workshop\nAdditional information can go here",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
+      "Git hands-on workshop",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
   {
-    "objectID": "syllabus.html#reproducibility",
-    "href": "syllabus.html#reproducibility",
-    "title": "2  Syllabus",
-    "section": "Reproducibility",
-    "text": "Reproducibility\nFollow these steps if you wish to reproduce this website:\n\n\n\n\n\n\nNote\n\n\n\n\nInstall all necessary dependencies (see above) and make sure Quarto is installed (usually comes automatically with RStudio installation)\nUsing command line, run all scripts via quarto render or in RStudio Build &gt; Render Book",
+    "objectID": "04_reporting.html",
+    "href": "04_reporting.html",
+    "title": "6  An introduction to Quarto",
+    "section": "",
+    "text": "6.1 Slide deck",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
+      "Reporting",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
   },
   {
-    "objectID": "syllabus.html#repository-structure-and-files",
-    "href": "syllabus.html#repository-structure-and-files",
-    "title": "2  Syllabus",
-    "section": "Repository structure and files",
-    "text": "Repository structure and files\n\nDirectory overview\nOverview of files and file types in this repository:\n\n.Rprofile - defines paths, activates renv, options for Posit R package manager\nrenv/renv.lock - renv directories to manage R dependencies and versions used in this simulation\n.github - workflow files for automatic CI/CD on Github pages\nREADME - essential information about the project (README.Rmd renders to README.md via update_README.R after each quarto render command)",
+    "objectID": "04_reporting.html#what-is-literate-programming",
+    "href": "04_reporting.html#what-is-literate-programming",
+    "title": "6  An introduction to Quarto",
+    "section": "6.2 What is literate programming?",
+    "text": "6.2 What is literate programming?\n….",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
+      "Reporting",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
   }
 ]
