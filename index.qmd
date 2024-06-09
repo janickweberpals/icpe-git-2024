@@ -52,12 +52,11 @@ Follow these steps if you wish to reproduce this website:
 
 ### Directory overview {.unnumbered}
 
-```{r, echo=FALSE}
-fs::dir_tree(recurse = 1)
-```
+Overview of files and file types in this repository:
 
 -   .Rprofile - defines paths, activates `renv`, options for Posit R package manager
 -   renv/renv.lock - `renv` directories to manage R dependencies and versions used in this simulation
 -   .github - workflow files for automatic CI/CD on Github pages
 -   README - essential information about the project (README.Rmd renders to README.md via update_README.R after each `quarto render` command)
+
 :::
