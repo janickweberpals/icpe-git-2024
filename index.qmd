@@ -41,11 +41,11 @@ renv::restore()
 
 ## Reproducibility {.unnumbered}
 
-Follow these steps to reproduce this website:
+Follow these steps if you wish to reproduce this website:
 
 ::: callout-note
 1.  Install all necessary dependencies (see above) and [make sure Quarto is installed](https://quarto.org/docs/get-started/) (usually comes automatically with RStudio installation)
-2.  In RStudio, run all scripts via `quarto render` or in RStudio `Build > Render Book`
+2.  Using command line, run all scripts via `quarto render` or in RStudio `Build > Render Book`
 :::
 
 ## Repository structure and files {.unnumbered}
