@@ -46,47 +46,19 @@ can be installed by running the following command:
 
 ## Reproducibility
 
-Follow these steps to reproduce this website:
+Follow these steps if you wish to reproduce this website:
 
 1.  Install all necessary dependencies (see above) and [make sure Quarto
     is installed](https://quarto.org/docs/get-started/) (usually comes
     automatically with RStudio installation)
-2.  In RStudio, run all scripts via `quarto render` or in RStudio
-    `Build > Render Book`
+2.  Using command line, run all scripts via `quarto render` or in
+    RStudio `Build > Render Book`
 
 ## Repository structure and files
 
 ### Directory overview
 
-    ## .
-    ## ├── 01_protocol.qmd
-    ## ├── 02_intro.qmd
-    ## ├── 03_workshop.qmd
-    ## ├── 04_reporting.qmd
-    ## ├── LICENSE
-    ## ├── README.md
-    ## ├── _book
-    ## │   ├── 01_protocol.html
-    ## │   ├── 02_intro.html
-    ## │   ├── 03_workshop.html
-    ## │   ├── 04_reporting.html
-    ## │   ├── icpe24_logo.png
-    ## │   ├── index.html
-    ## │   ├── search.json
-    ## │   └── site_libs
-    ## ├── _quarto.yml
-    ## ├── icpe-git-2024.Rproj
-    ## ├── icpe24_logo.png
-    ## ├── index.qmd
-    ## ├── quarto
-    ## │   └── notes.qmd
-    ## ├── renv
-    ## │   ├── activate.R
-    ## │   ├── library
-    ## │   ├── settings.json
-    ## │   └── staging
-    ## ├── renv.lock
-    ## └── update_README.R
+Overview of files and file types in this repository:
 
 -   .Rprofile - defines paths, activates `renv`, options for Posit R
     package manager
