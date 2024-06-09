@@ -20,10 +20,6 @@ Course material: Course materials can be found at <https://github.com/janickwebe
 :::
 :::
 
-::: {.content-visible when-format="md"}
-Course material: Course materials can be found at <https://github.com/janickweberpals/icpe-git-2024>
-:::
-
 ## Course requisites {.unnumbered}
 
 This course is designed for participants both new and experienced in pharmacoepidemiology. Whilst this may be most relevant for people who work hands-on with healthcare databases and so have some coding experience, any levels of expertise are welcome.
@@ -32,10 +28,6 @@ This course is designed for participants both new and experienced in pharmacoepi
 ::: callout-important
 Course participants should have a good understanding of basic pharmacoepidemiologic principles and ideally some experience with any statistical programming language.
 :::
-:::
-
-::: {.content-visible when-format="md"}
-> Course participants should have a good understanding of basic pharmacoepidemiologic principles and ideally some experience with any statistical programming language.
 :::
 
 ::: {.content-visible when-format="html"}

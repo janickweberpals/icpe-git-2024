@@ -24,9 +24,6 @@ analysis and reporting stages of a RWE study.
 Course material: Course materials can be found at
 <https://github.com/janickweberpals/icpe-git-2024>
 
-Course material: Course materials can be found at
-<https://github.com/janickweberpals/icpe-git-2024>
-
 ## Course requisites
 
 This course is designed for participants both new and experienced in
@@ -37,10 +34,6 @@ experience, any levels of expertise are welcome.
 Course participants should have a good understanding of basic
 pharmacoepidemiologic principles and ideally some experience with any
 statistical programming language.
-
-> Course participants should have a good understanding of basic
-> pharmacoepidemiologic principles and ideally some experience with any
-> statistical programming language.
 
 ## Dependencies
 
