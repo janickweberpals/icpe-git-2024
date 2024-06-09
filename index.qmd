@@ -8,6 +8,8 @@ code-fold: false
 
 ![](icpe24_logo.png){fig-align="center" width="728"}
 
+>Course Date: August 25, 2024 (9am-12:30pm, Berlin)
+
 ## About {.unnumbered}
 
 Transparency and reproducibility are major prerequisites for conducting meaningful real-world evidence (RWE) studies that are fit for decision-making. With HARPER and RECORD-PE, many advances have been made in the documentation and reporting of study protocols, study parameters, and results, but the principles for computational reproducibility of study results, version control and sharing of analytic code in RWE are not yet as established as in other quantitative disciplines like computational biology and health informatics, where there are potentially fewer barriers.
