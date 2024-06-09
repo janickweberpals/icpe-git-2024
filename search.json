@@ -30,6 +30,16 @@
     ]
   },
   {
+    "objectID": "index.html#helpful-pre-reads",
+    "href": "index.html#helpful-pre-reads",
+    "title": "Let’s git it started",
+    "section": "0.1 Helpful pre-reads",
+    "text": "0.1 Helpful pre-reads\nWeberpals J and Wang SV. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. doi: 10.1002/pds.5740.\nSchultze A, Tazare J. The role of programming code sharing in improving the transparency of medical research. BMJ. 2023 Oct 17;383:2402. doi: 10.1136/bmj.p2402. PMID: 37848206.\nWang SV, Pottegård A, Crown W, Arlett P, et al. HARmonized Protocol Template to Enhance Reproducibility of hypothesis evaluating real-world evidence studies on treatment effects: A good practices report of a joint ISPE/ISPOR task force. Pharmacoepidemiol Drug Saf. 2023 Jan;32(1):44-55. doi: 10.1002/pds.5507. Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
+  },
+  {
     "objectID": "index.html#sec-dependencies",
     "href": "index.html#sec-dependencies",
     "title": "Let’s git it started",
