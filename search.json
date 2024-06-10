@@ -106,7 +106,6 @@
     "section": "",
     "text": "3.1 HARPER\nAdditional information can go here, e.g.,",
     "crumbs": [
-      "Protocol",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
     ]
   },
@@ -117,7 +116,6 @@
     "section": "",
     "text": "Link to HARPER resouces (OSF)\nMain points to consider\netc.",
     "crumbs": [
-      "Protocol",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
     ]
   },
@@ -128,7 +126,6 @@
     "section": "",
     "text": "4.1 Introduction to Git\nAdditional information can go here, e.g.,",
     "crumbs": [
-      "Git introduction",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to Git</span>"
     ]
   },
@@ -139,7 +136,6 @@
     "section": "",
     "text": "git workflow summary\nGlossary\nMost important commands\n\n\nShow the code\ngit add .\ngit commit\ngit push",
     "crumbs": [
-      "Git introduction",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to Git</span>"
     ]
   },
@@ -150,7 +146,6 @@
     "section": "",
     "text": "5.1 Git workshop\nAdditional information can go here, e.g.,",
     "crumbs": [
-      "Git hands-on workshop",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
@@ -161,7 +156,6 @@
     "section": "",
     "text": "Case study instructions\nSetup instructions\n\nInstalling git\nInstalling GitHub Desktop\nLocal setup? Posit cloud? GitHub Codespaces?\n\nHow to fetch/download example data\n….",
     "crumbs": [
-      "Git hands-on workshop",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
@@ -172,7 +166,6 @@
     "section": "",
     "text": "6.1 Slide deck\nAdditional resources",
     "crumbs": [
-      "Reporting",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
   },
@@ -183,7 +176,6 @@
     "section": "",
     "text": "Setup with SAS (setup, demo) and STATA",
     "crumbs": [
-      "Reporting",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
   }
