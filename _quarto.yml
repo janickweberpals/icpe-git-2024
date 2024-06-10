@@ -9,25 +9,12 @@ book:
     
     
   chapters:
-    # landing page
-    - index.qmd
+    - index.qmd # landing page
     - syllabus.qmd
-    
-    - part: Protocol
-      chapters:
-        - 01_protocol.qmd
-        
-    - part: Git introduction
-      chapters:
-        - 02_intro.qmd
-
-    - part: Git hands-on workshop
-      chapters:
-        - 03_workshop.qmd
-        
-    - part: Reporting
-      chapters:
-        - 04_reporting.qmd
+    - 01_protocol.qmd
+    - 02_intro.qmd
+    - 03_workshop.qmd
+    - 04_reporting.qmd
 
   reader-mode: true
   repo-url: https://github.com/janickweberpals/icpe-git-2024
