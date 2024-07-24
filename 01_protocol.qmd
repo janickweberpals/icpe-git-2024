@@ -12,10 +12,20 @@ editor: visual
 
 ## HARPER
 
-Additional information can go here, e.g.,
+Ambiguity in communication of key study parameters limits the utility of real-world evidence (RWE) studies in healthcare decision-making. The International Society for Pharmacoepidemiology and ISPOR (The Professional Society for Health Economics and Outcomes Research) convened a joint task force to create a harmonized protocol template for RWE studies. The template builds on existing efforts to improve transparency and incorporates recent insights regarding the level of detail needed to enable study reproducibility.
 
--   Link to HARPER resouces (OSF)
+The overarching principle was to reach for sufficient clarity to achieve three main goals. One, to help investigators thoroughly consider, then document their choices and rationale for key study parameters that define the causal question, two, to facilitate decision-making by enabling reviewers to readily assess potential for biases related to these choices, and three, to facilitate reproducibility. The HARmonized Protocol Template to Enhance Reproducibility helps to create a shared understanding of intended scientific decisions through a common text, tabular and visual structure. The template provides a set of core recommendations for clear and reproducible RWE study protocols and is intended to be used as a backbone throughout the research process from developing a valid study protocol, to registration, through implementation and reporting on those implementation decisions.
 
--   Main points to consider
+### ICPE 2024 presentation
 
--   etc.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSHaykW9ciS4Mh0PJuu2dPi2qLahNoB7n8FxLkOfwcPWezp65o3h0_Ycvd_WcMkNA/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+
+### Additional resources
+
+-   Download the HARPER template from OSF [here](https://osf.io/6qxpf/)
+
+-   Read the paper (Wang SV et al. PDS 2022) [here](https://onlinelibrary.wiley.com/doi/10.1002/pds.5507)
+
+-   Find a GitLab/quarto-based template for real-world evidence (RWE) studies [here](https://gitlab-scm.partners.org/drugepi/harper)
