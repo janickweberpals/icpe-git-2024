@@ -104,7 +104,7 @@
     "href": "01_protocol.html",
     "title": "3  Protocols for pre-specification",
     "section": "",
-    "text": "3.1 HARPER\nAdditional information can go here, e.g.,",
+    "text": "3.1 HARPER\nAmbiguity in communication of key study parameters limits the utility of real-world evidence (RWE) studies in healthcare decision-making. The International Society for Pharmacoepidemiology and ISPOR (The Professional Society for Health Economics and Outcomes Research) convened a joint task force to create a harmonized protocol template for RWE studies. The template builds on existing efforts to improve transparency and incorporates recent insights regarding the level of detail needed to enable study reproducibility.\nThe overarching principle was to reach for sufficient clarity to achieve three main goals. One, to help investigators thoroughly consider, then document their choices and rationale for key study parameters that define the causal question, two, to facilitate decision-making by enabling reviewers to readily assess potential for biases related to these choices, and three, to facilitate reproducibility. The HARmonized Protocol Template to Enhance Reproducibility helps to create a shared understanding of intended scientific decisions through a common text, tabular and visual structure. The template provides a set of core recommendations for clear and reproducible RWE study protocols and is intended to be used as a backbone throughout the research process from developing a valid study protocol, to registration, through implementation and reporting on those implementation decisions.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
     ]
@@ -114,7 +114,7 @@
     "href": "01_protocol.html#harper",
     "title": "3  Protocols for pre-specification",
     "section": "",
-    "text": "Link to HARPER resouces (OSF)\nMain points to consider\netc.",
+    "text": "3.1.1 ICPE 2024 presentation\n\n\n\n\n3.1.2 Additional resources\n\nDownload the HARPER template from OSF here\nRead the paper (Wang SV et al. PDS 2022) here\nFind a GitLab/quarto-based template for real-world evidence (RWE) studies here",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
     ]
