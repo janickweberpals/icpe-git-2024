@@ -174,7 +174,7 @@
     "href": "04_reporting.html#slide-deck",
     "title": "6  An introduction to Quarto",
     "section": "",
-    "text": "Setup with SAS (setup, demo) and STATA",
+    "text": "Setup with SAS (setup, demo) and STATA\n\n\nAchieving a seamless workflow between R, Python and SAS from within RStudio\n\n\n\n\nSAS engine via Quarto",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
