@@ -23,3 +23,15 @@ Additional resources
     <iframe width="725" height="440.6641" src="https://www.youtube.com/embed/A2-Ti-c6w8c?si=iUK56qZdMkVbfl-2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
     </iframe>
+
+-   Achieving a seamless workflow between R, Python and SAS from within RStudio
+
+<iframe width="725" height="440.6641" src="https://www.youtube.com/embed/iS9toBHswBY?si=VjVGwy-lZ2ZVGGsa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+-   SAS engine via Quarto
+
+<iframe width="725" height="440.6641" src="https://www.youtube.com/embed/4c9T6-__vI8?si=HyYdxcP2Q-vlio3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
