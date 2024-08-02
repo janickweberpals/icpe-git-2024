@@ -16,7 +16,11 @@ editor: visual
 
 </iframe>
 
-Additional resources
+## Example study report created using Quarto
+
+-   [`https://drugepi.gitlab-pages.partners.org/hdmi-manuscript/`{=html}](https://drugepi.gitlab-pages.partners.org/hdmi-manuscript/)
+
+## Setting up Quarto with SAS and STATA
 
 -   Setup with [SAS](https://sassoftware.github.io/saspy/configuration.html#http) ([setup](https://www.harveyl888.com/outputs/quarto_02.html), [demo](https://www.harveyl888.com/outputs/quarto_02.html)) and [STATA](https://users.ssc.wisc.edu/~hemken/Stataworkshops/Statamarkdown/stata-and-r-markdown.html)
 
@@ -26,12 +30,12 @@ Additional resources
 
 -   Achieving a seamless workflow between R, Python and SAS from within RStudio
 
-<iframe width="725" height="440.6641" src="https://www.youtube.com/embed/iS9toBHswBY?si=VjVGwy-lZ2ZVGGsa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    <iframe width="725" height="440.6641" src="https://www.youtube.com/embed/iS9toBHswBY?si=VjVGwy-lZ2ZVGGsa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
-</iframe>
+    </iframe>
 
 -   SAS engine via Quarto
 
-<iframe width="725" height="440.6641" src="https://www.youtube.com/embed/4c9T6-__vI8?si=HyYdxcP2Q-vlio3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    <iframe width="725" height="440.6641" src="https://www.youtube.com/embed/4c9T6-__vI8?si=HyYdxcP2Q-vlio3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
-</iframe>
+    </iframe>

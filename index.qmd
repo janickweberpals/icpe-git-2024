@@ -4,6 +4,7 @@ output: html_document
 date: "`r Sys.Date()`"
 date-format: long
 code-fold: false
+number-sections: false
 ---
 
 ![](icpe24_logo.png){fig-align="center" width="728"}
@@ -22,11 +23,15 @@ Course material: Course materials can be found at <https://github.com/janickwebe
 :::
 :::
 
+## [Intro](https://docs.google.com/presentation/d/1j6LsWOIuNQbo8jRhGsEpOGSRuvrXpox-UIweZPemCco/edit?usp=sharing){.unnumbered}
+
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBPAY8Qv8iCTrckw7MXAJPKfO8WtvZCSZAcnLx097G2AHk78MY-AieJqCgdGVpYNobGfemmAINFBkK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 </iframe>
 
-<https://docs.google.com/presentation/d/1j6LsWOIuNQbo8jRhGsEpOGSRuvrXpox-UIweZPemCco/edit?usp=sharing>
+## [Outro](https://docs.google.com/presentation/d/1PVlWnePZY7WsqlGHuZ_BCd3VBXg4vB0FmN0rq2oSx7E/edit?usp=sharing){.unnumbered}
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRZDmme11u8JNR5PgfJbucRySNw3TX2Prx9aD6iAS9XZmZZ0ui7Er3WCXiFiexn7Iap0vgyYCus4-Vh/embed?start=false&loop=false&delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Course requisites {.unnumbered}
 
