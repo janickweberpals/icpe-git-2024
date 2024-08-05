@@ -19,7 +19,8 @@ As many stakeholders (funding agencies, journals, regulators, data providers) in
 
 ::: {.content-visible when-format="html"}
 ::: callout-tip
-Course material: Course materials can be found at <https://github.com/janickweberpals/icpe-git-2024>
+-   Course material: Course materials can be found at <https://github.com/janickweberpals/icpe-git-2024>
+-   Poll everywhere survey can be found at <https://pollev.com/janickweberpals917>
 :::
 :::
 
