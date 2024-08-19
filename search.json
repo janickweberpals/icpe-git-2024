@@ -208,5 +208,15 @@
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
+  },
+  {
+    "objectID": "04_reporting.html#quarto-for-reproducible-medical-manuscripts",
+    "href": "04_reporting.html#quarto-for-reproducible-medical-manuscripts",
+    "title": "6  An introduction to Quarto",
+    "section": "6.4 Quarto for reproducible medical manuscripts",
+    "text": "6.4 Quarto for reproducible medical manuscripts\n\nTalk by Mine Çetinkaya-Rundel on Quarto’s new manuscript document type and how it can be used to create reproducible medical manuscripts (talk delivered at R/Medicine conference 2024)\n&lt;/li&gt;\n&lt;/ul&gt;\n\n\nThe slide deck and more information can be found at https://quarto.org/docs/blog/posts/2024-04-01-manuscripts-rmedicine/",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+    ]
   }
 ]
