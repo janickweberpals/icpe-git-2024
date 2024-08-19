@@ -39,3 +39,13 @@ editor: visual
     <iframe width="725" height="440.6641" src="https://www.youtube.com/embed/4c9T6-__vI8?si=HyYdxcP2Q-vlio3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
     </iframe>
+
+## Quarto for reproducible medical manuscripts 
+
+-   Talk by Mine Çetinkaya-Rundel on Quarto's new `manuscript` document type and how it can be used to create reproducible medical manuscripts (talk delivered at R/Medicine conference 2024)
+
+    <iframe width="725" height="440.6641" src="https://www.youtube.com/embed/NK1onTLcgY4?si=e0dWnrCsi_a6Fl1-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+-   The slide deck and more information can be found at <https://quarto.org/docs/blog/posts/2024-04-01-manuscripts-rmedicine/>
