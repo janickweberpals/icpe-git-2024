@@ -66,7 +66,7 @@ Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.
 This is a quarto project and R package dependencies are managed through
 the `renv` package. All packages and their versions can be viewed in the
 lockfile `renv.lock`. All required packages and the appropriate versions
-can be installed by running the following command in RStudio:
+can be installed by running the following command in R/RStudio:
 
 ```         
 renv::restore()
