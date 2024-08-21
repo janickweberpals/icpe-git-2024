@@ -142,21 +142,61 @@
   {
     "objectID": "02_intro.html",
     "href": "02_intro.html",
-    "title": "4  Introduction to Git",
+    "title": "4  Introduction to git",
     "section": "",
-    "text": "4.1 Introduction to Git\nAdditional information can go here, e.g.,",
+    "text": "4.1 Session Introduction\nGit is a free, open-source, distributed version control tool, which allows you to keep track of changes made to a file over time. Github is an online platform which hosts git projects. Using Github can make it easier to use git, share your code with others and to program collaboratively. Although git or similar version control tools are widely adopted by software engineers, they’ve historically been less frequently used by pharmacoepidemiologists. In a recent study of programming code sharing in the journal Pharmacoepidemiology and Drug Safety, we found that only about 5% of people shared code over the past five years, and most of them did so in the supplementary materials of their paper rather than through Github.\nIn this session we will introduce you to git and Github, talk through different ways you might use these in your day to day work, and give some practical considerations for using git for different types of projects and in different organisations (i.e, in academia, or within private companies or consultancies). You’ll find the slides for this session below, as well as a glossary and link to additional resources.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to Git</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
     ]
   },
   {
-    "objectID": "02_intro.html#introduction-to-git",
-    "href": "02_intro.html#introduction-to-git",
-    "title": "4  Introduction to Git",
-    "section": "",
-    "text": "git workflow summary\nGlossary\nMost important commands\n\n\nShow the code\ngit add .\ngit commit\ngit push",
+    "objectID": "02_intro.html#icpe-2024-slides",
+    "href": "02_intro.html#icpe-2024-slides",
+    "title": "4  Introduction to git",
+    "section": "4.2 ICPE 2024 Slides",
+    "text": "4.2 ICPE 2024 Slides\n[placeholder - pending review]",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to Git</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
+    ]
+  },
+  {
+    "objectID": "02_intro.html#git-glossary",
+    "href": "02_intro.html#git-glossary",
+    "title": "4  Introduction to git",
+    "section": "4.3 Git glossary",
+    "text": "4.3 Git glossary\n\n\n\n\n\n\n\nTerm\nMeaning\n\n\n\n\nRepository\nProject folder. A repository, often called a “repo”, can be public or private, and hosted either on your own Github profile or that of an organisation.\n\n\nRemote\nThe central place where your code is stored, typically a cloud-based location such as Github.\n\n\nOrigin\nThe remote repository that your project was originally cloned from. Often used interchangeably with remote.\n\n\nClone\nCreate a copy of an existing repository into a specific folder.\n\n\nStage\nChoose which files you want to add to a certain commit. You can think of this as choosing which files you want to be included in a particular snapshot.\n\n\nCommit\nCreate a snapshot of the project. Git will only commit the files you’ve staged.\n\n\nPush\nUpload changes to a file to github\n\n\nBranch\nA copy of your repository. Specifically, it’s a copy of the main branch at a certain point in time. Branches allows you to add specific features or try out changes without the main codebase being affected.\n\n\nPull Request\nAsk for your changes, on a branch, to be merged into another branch (usually the main branch)\n\n\nFetch\nDownload the contents from a remote repository to your local repository. It **does not** integrate this into your working files.\n\n\nMerge\nIncorporate changes, either from one repository to another (for example, from remote to local) or from a feature branch onto the main branch.\n\n\nPull\nDownloads changes, typically from the remote to your computer. Technically, it’s fetch and merge combined.\n\n\nREADME\nA plain text file that provides information about a project. Your README will render automatically on Github and provide a ‘landing page’ and introduction to your project. Typically written in markdown.\n\n\nLicense\nA file which tells others what they can and cannot do with your code. If you do not specify a license, default copyright laws apply (you retain all rights to the code and no one can reproduce, distributed or create derivative works from your work). The default license is very restrictive and hinders reuse, it is almost always worth choosing a more permissive license for a public project.\n\n\n.gitignore\nFile which tells git what types of files to ignore. A .gitignore may be automatically added to a repository, if you create it based on a template.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
+    ]
+  },
+  {
+    "objectID": "02_intro.html#how-to-for-common-tasks",
+    "href": "02_intro.html#how-to-for-common-tasks",
+    "title": "4  Introduction to git",
+    "section": "4.4 ‘How to’ for common tasks",
+    "text": "4.4 ‘How to’ for common tasks\n\n\n\nTask\nCommand Line\nGithub Desktop\n\n\n\n\nCreate a new repository\ngit init\nClick File in the menu bar at the top, then New Repository to create a new repository\n\n\nClone a repository from Github to your local machine.\ncd [working directory you want to clone into]\ngit clone my_url.com\nClick File in the menu bar at the top, then Clone Repository and follow prompts to enter where you want to clone this to, and the url for the repository you want to clone.\n\n\nCheckout a new branch for the first time\ngit checkout -b my_branch_name\nIn the Github desktop bar, select Current Branch and then New Branch.\n\n\nStage files (choose which changes to include in a commit)\ngit add my_filename.R\nIn the left hand bar, use the checkboxes to select files. To stage all files, click the top checkbox.\n\n\nCommit\ngit commit -m “my informative commit message”\nIn the bottom of the left hand bar, there is an option to commit to [branch_name]. If you do not use branches, this will most likely say commit to main or commit to master. Before you press commit, enter an informative commit message in the top bar. Github Desktop will autofill one based on the files that are included, but you can edit this. The description field is a more detailed explanation of the commit, which you can leave blank if you want.\n\n\nPush commits to the remote.\ngit push origin branch name\ngit push origin main (for main branch)\nClick Push Origin in the top right-hand corner within the repository bar\n\n\nOpen a Pull Request.\nPull Requests are a feature of Github. Push your changes to the remote feature branch, and Github will automatically prompt you to open a pull request.\nAfter pushing changes to a remote branch, Github Desktop will prompt you to open a pull request which will open Github. You can also navigate to Github yourself, and initiate the PR from there.\n\n\nFetch files from remote\ngit fetch (all files and branches)\ngit fetch origin main (all files in main)\nIn the Github desktop bar, select Fetch Origin. If there are changes, you prompted to consequently Pull origin to incorporate those changes.\n\n\nMerge in changes you’ve fetched from origin\ngit merge origin/main\nor\ngit merge origin/feature_branch\nGit will merge this into the branch **you are working in**. Merge needs to be preceded by a git fetch.\nNot applicable; Github Desktop integrates changes by pulling them after fetching (see below).\n\n\nPull changes from origin.\ngit pull origin/main\nor\ngit pull origin/feature_branch\nAfter Fetch Origin, you will be prompted to Pull Origin to incorporate any changes.\n\n\n\nSave a text file with the title README in your project folder.\nYou will be prompted to ‘initialise’ the repository with a README when you click create New Repository, which will create a text file titled README in the project folder.\n\n\nAdd a license to your repository\nGithub will take any file saved as LICENSE in the project repository and display it as the project license. Go to https://choosealicense.com/, pick one, and copy paste it into a plain text file called LICENSE.\nLicenses are a feature of Github, so same as previously described.\n\n\nEdit a .gitignore file.\nOpen the text file called .gitignore in the project repository and edit as required. If you cannot see it, turn on view hidden files (how to do this will vary depending on your OS).\nIn the menu bar, select Repository, then Repository Settings and select Ignored Files. Edit as required.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
+    ]
+  },
+  {
+    "objectID": "02_intro.html#key-steps-in-a-git-workflow",
+    "href": "02_intro.html#key-steps-in-a-git-workflow",
+    "title": "4  Introduction to git",
+    "section": "4.5 Key Steps in a git workflow",
+    "text": "4.5 Key Steps in a git workflow",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
+    ]
+  },
+  {
+    "objectID": "02_intro.html#additional-resources",
+    "href": "02_intro.html#additional-resources",
+    "title": "4  Introduction to git",
+    "section": "4.6 Additional Resources",
+    "text": "4.6 Additional Resources\n\nComprehensive Documentation for Github Desktop\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
     ]
   },
   {

@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Anna Schultze">
-<meta name="dcterms.date" content="2024-08-19">
+<meta name="dcterms.date" content="2024-08-21">
 
-<title>4&nbsp; Introduction to Git – Let's git it started</title>
+<title>4&nbsp; Introduction to git – Let's git it started</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -117,7 +83,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02_intro.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Introduction to Git</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02_intro.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Introduction to git</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -171,7 +137,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./02_intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Introduction to Git</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Introduction to git</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -196,7 +162,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction-to-git" id="toc-introduction-to-git" class="nav-link active" data-scroll-target="#introduction-to-git"><span class="header-section-number">4.1</span> Introduction to Git</a></li>
+  <li><a href="#session-introduction" id="toc-session-introduction" class="nav-link active" data-scroll-target="#session-introduction"><span class="header-section-number">4.1</span> Session Introduction</a></li>
+  <li><a href="#icpe-2024-slides" id="toc-icpe-2024-slides" class="nav-link" data-scroll-target="#icpe-2024-slides"><span class="header-section-number">4.2</span> ICPE 2024 Slides</a></li>
+  <li><a href="#git-glossary" id="toc-git-glossary" class="nav-link" data-scroll-target="#git-glossary"><span class="header-section-number">4.3</span> Git glossary</a></li>
+  <li><a href="#how-to-for-common-tasks" id="toc-how-to-for-common-tasks" class="nav-link" data-scroll-target="#how-to-for-common-tasks"><span class="header-section-number">4.4</span> ‘How to’ for common tasks</a></li>
+  <li><a href="#key-steps-in-a-git-workflow" id="toc-key-steps-in-a-git-workflow" class="nav-link" data-scroll-target="#key-steps-in-a-git-workflow"><span class="header-section-number">4.5</span> Key Steps in a git workflow</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources"><span class="header-section-number">4.6</span> Additional Resources</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/janickweberpals/icpe-git-2024/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -205,7 +176,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Introduction to Git</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Introduction to git</span></h1>
 </div>
 
 
@@ -222,7 +193,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 19, 2024</p>
+      <p class="date">August 21, 2024</p>
     </div>
   </div>
   
@@ -234,21 +205,190 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="introduction-to-git" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="introduction-to-git"><span class="header-section-number">4.1</span> Introduction to Git</h2>
-<p>Additional information can go here, e.g.,</p>
+<section id="session-introduction" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="session-introduction"><span class="header-section-number">4.1</span> Session Introduction</h2>
+<p>Git is a free, open-source, distributed version control tool, which allows you to keep track of changes made to a file over time. Github is an online platform which hosts git projects. Using Github can make it easier to use git, share your code with others and to program collaboratively. Although git or similar version control tools are widely adopted by software engineers, they’ve historically been less frequently used by pharmacoepidemiologists. In a recent study of programming code sharing in the journal <em>Pharmacoepidemiology and Drug Safety</em>, we found that only about 5% of people shared code over the past five years, and most of them did so in the supplementary materials of their paper rather than through Github.</p>
+<p>In this session we will introduce you to git and Github, talk through different ways you might use these in your day to day work, and give some practical considerations for using git for different types of projects and in different organisations (i.e, in academia, or within private companies or consultancies). You’ll find the slides for this session below, as well as a glossary and link to additional resources.</p>
+</section>
+<section id="icpe-2024-slides" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="icpe-2024-slides"><span class="header-section-number">4.2</span> ICPE 2024 Slides</h2>
+<p>[placeholder - pending review]</p>
+</section>
+<section id="git-glossary" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="git-glossary"><span class="header-section-number">4.3</span> Git glossary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 96%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Repository</td>
+<td>Project folder. A repository, often called a “repo”, can be public or private, and hosted either on your own Github profile or that of an organisation.</td>
+</tr>
+<tr class="even">
+<td>Remote</td>
+<td>The central place where your code is stored, typically a cloud-based location such as Github.</td>
+</tr>
+<tr class="odd">
+<td>Origin</td>
+<td>The remote repository that your project was originally cloned from. Often used interchangeably with remote.</td>
+</tr>
+<tr class="even">
+<td>Clone</td>
+<td>Create a copy of an existing repository into a specific folder.</td>
+</tr>
+<tr class="odd">
+<td>Stage</td>
+<td>Choose which files you want to add to a certain commit. You can think of this as choosing which files you want to be included in a particular snapshot.</td>
+</tr>
+<tr class="even">
+<td>Commit</td>
+<td>Create a snapshot of the project. Git will only commit the files you’ve staged.</td>
+</tr>
+<tr class="odd">
+<td>Push</td>
+<td>Upload changes to a file to github</td>
+</tr>
+<tr class="even">
+<td>Branch</td>
+<td>A copy of your repository. Specifically, it’s a copy of the <em>main branch</em> at a certain point in time. Branches allows you to add specific features or try out changes without the main codebase being affected.</td>
+</tr>
+<tr class="odd">
+<td>Pull Request</td>
+<td>Ask for your changes, on a branch, to be merged into another branch (usually the main branch)</td>
+</tr>
+<tr class="even">
+<td>Fetch</td>
+<td>Download the contents from a remote repository to your local repository. It **does not** integrate this into your working files.</td>
+</tr>
+<tr class="odd">
+<td>Merge</td>
+<td>Incorporate changes, either from one repository to another (for example, from remote to local) or from a feature branch onto the main branch.</td>
+</tr>
+<tr class="even">
+<td>Pull</td>
+<td>Downloads changes, typically from the remote to your computer. Technically, it’s fetch and merge combined.</td>
+</tr>
+<tr class="odd">
+<td>README</td>
+<td>A plain text file that provides information about a project. Your README will render automatically on Github and provide a ‘landing page’ and introduction to your project. Typically written in markdown.</td>
+</tr>
+<tr class="even">
+<td>License</td>
+<td>A file which tells others what they can and cannot do with your code. If you do not specify a license, default copyright laws apply (you retain all rights to the code and no one can reproduce, distributed or create derivative works from your work). The default license is very restrictive and hinders reuse, it is almost always worth choosing a more permissive license for a public project.</td>
+</tr>
+<tr class="odd">
+<td>.gitignore</td>
+<td>File which tells git what types of files to ignore. A .gitignore may be automatically added to a repository, if you create it based on a template.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="how-to-for-common-tasks" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="how-to-for-common-tasks"><span class="header-section-number">4.4</span> ‘How to’ for common tasks</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Task</th>
+<th>Command Line</th>
+<th>Github Desktop</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Create a new repository</td>
+<td><code>git init</code></td>
+<td>Click <strong>File</strong> in the menu bar at the top, then <strong>New Repository</strong> to create a new repository</td>
+</tr>
+<tr class="even">
+<td>Clone a repository from Github to your local machine.</td>
+<td><p><code>cd</code> [working directory you want to clone into]</p>
+<p><code>git clone</code> <em>my_url.com</em></p></td>
+<td>Click <strong>File</strong> in the menu bar at the top, then <strong>Clone Repository</strong> and follow prompts to enter where you want to clone this to, and the url for the repository you want to clone.</td>
+</tr>
+<tr class="odd">
+<td>Checkout a new branch for the first time</td>
+<td><code>git checkout -b</code> <em>my_branch_name</em></td>
+<td>In the Github desktop bar, select <strong><em>Current Branch</em></strong> and then <strong>New Branch</strong>.</td>
+</tr>
+<tr class="even">
+<td>Stage files (choose which changes to include in a commit)</td>
+<td><code>git add</code> <em>my_filename.R</em></td>
+<td>In the left hand bar, use the checkboxes to select files. To stage all files, click the top checkbox.</td>
+</tr>
+<tr class="odd">
+<td>Commit</td>
+<td><code>git commit -m</code> “<em>my informative commit message</em>”</td>
+<td>In the bottom of the left hand bar, there is an option to commit to [branch_name]. If you do not use branches, this will most likely say commit to main or commit to master. Before you press commit, enter an informative commit message in the top bar. Github Desktop will autofill one based on the files that are included, but you can edit this. The description field is a more detailed explanation of the commit, which you can leave blank if you want.</td>
+</tr>
+<tr class="even">
+<td>Push commits to the remote.</td>
+<td><p><code>git push origin</code> <em>branch name</em></p>
+<p><code>git push origin main</code> (for main branch)</p></td>
+<td>Click <strong>Push Origin</strong> in the top right-hand corner within the repository bar</td>
+</tr>
+<tr class="odd">
+<td>Open a Pull Request.</td>
+<td>Pull Requests are a feature of Github. Push your changes to the remote feature branch, and Github will automatically prompt you to open a pull request.</td>
+<td>After pushing changes to a remote branch, Github Desktop will prompt you to open a pull request which will open Github. You can also navigate to Github yourself, and initiate the PR from there.</td>
+</tr>
+<tr class="even">
+<td>Fetch files from remote</td>
+<td><p><code>git fetch</code> (all files and branches)</p>
+<p><code>git fetch origin main</code> (all files in main)</p></td>
+<td>In the Github desktop bar, select <strong>Fetch Origin</strong>. If there are changes, you prompted to consequently <strong>Pull origin</strong> to incorporate those changes.</td>
+</tr>
+<tr class="odd">
+<td>Merge in changes you’ve fetched from origin</td>
+<td><p><code>git merge origin/main</code></p>
+<p>or</p>
+<p><code>git merge origin/feature_branch</code></p>
+<p>Git will merge this into the branch **you are working in**. Merge needs to be preceded by a git fetch.</p></td>
+<td>Not applicable; Github Desktop integrates changes by pulling them after fetching (see below).</td>
+</tr>
+<tr class="even">
+<td>Pull changes from origin.</td>
+<td><p><code>git pull origin/main</code></p>
+<p>or</p>
+<p><code>git pull origin/feature_branch</code></p></td>
+<td>After <strong>Fetch Origin</strong>, you will be prompted to <strong>Pull Origin</strong> to incorporate any changes.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Save a text file with the title README in your project folder.</td>
+<td>You will be prompted to ‘initialise’ the repository with a README when you click create <strong>New Repositor</strong>y, which will create a text file titled README in the project folder.</td>
+</tr>
+<tr class="even">
+<td>Add a license to your repository</td>
+<td>Github will take any file saved as LICENSE in the project repository and display it as the project license. Go to <a href="https://choosealicense.com/" class="uri">https://choosealicense.com/</a>, pick one, and copy paste it into a plain text file called LICENSE.</td>
+<td>Licenses are a feature of Github, so same as previously described.</td>
+</tr>
+<tr class="odd">
+<td>Edit a .gitignore file.</td>
+<td>Open the text file called .gitignore in the project repository and edit as required. If you cannot see it, turn on view hidden files (how to do this will vary depending on your OS).</td>
+<td>In the menu bar, select <strong>Repository</strong>, then <strong>Repository Settings</strong> and select <strong>Ignored Files</strong>. Edit as required.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="key-steps-in-a-git-workflow" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="key-steps-in-a-git-workflow"><span class="header-section-number">4.5</span> Key Steps in a git workflow</h2>
+<p><img src="git_workflow.png" class="img-fluid"></p>
+</section>
+<section id="additional-resources" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="additional-resources"><span class="header-section-number">4.6</span> Additional Resources</h2>
 <ul>
-<li><p>git workflow summary</p></li>
-<li><p>Glossary</p></li>
-<li><p>Most important commands</p>
-<div class="cell">
-<details class="code-fold">
-<summary>Show the code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</div></li>
+<li><p><a href="https://docs.github.com/en/desktop/overview">Comprehensive Documentation for Github Desktop</a></p></li>
+<li><p>Weberpals, J. &amp; Wang, S. V. <a href="https://doi.org/10.1002/pds.5740">The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R</a>. <em>Pharmacoepidemiol. Drug Saf.</em> (2024)</p></li>
+<li><p>Morton, C. <em>et al.</em> <a href="https://informatics.bmj.com/content/29/1/e100488">Software development skills for health data researchers</a>. <em>BMJ Health Care Inform.</em> <strong>29</strong>, e100488 (2022).</p></li>
+<li><p>Bryan, J. <a href="https://peerj.com/preprints/3159">Excuse Me, Do You Have a Moment to Talk about Version Control?</a> <em>PeerJ Preprints</em> (2017)</p></li>
 </ul>
 
 
