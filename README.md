@@ -1,4 +1,10 @@
-<img src="icpe24_logo.png" data-fig-align="center" width="728" />
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+<img src="icpe24_logo.png" data-fig-align="center" width="728"/>
 
 ## About
 
@@ -22,7 +28,7 @@ increase the transparency and reproducibility across the design,
 analysis and reporting stages of a RWE study.
 
 Course material: Course materials can be found at
-<https://github.com/janickweberpals/icpe-git-2024>
+<https://janickweberpals.github.io/icpe-git-2024/>
 
 ## Course requisites
 
@@ -60,9 +66,11 @@ Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.
 This is a quarto project and R package dependencies are managed through
 the `renv` package. All packages and their versions can be viewed in the
 lockfile `renv.lock`. All required packages and the appropriate versions
-can be installed by running the following command:
+can be installed by running the following command in R/RStudio:
 
-    renv::restore()
+```         
+renv::restore()
+```
 
 ## Reproducibility
 
@@ -86,5 +94,4 @@ Overview of files and file types in this repository:
     versions used in this simulation
 -   .github - workflow files for automatic CI/CD on Github pages
 -   README - essential information about the project (README.Rmd renders
-    to README.md via update\_README.R after each `quarto render`
-    command)
+    to README.md via update_README.R after each `quarto render` command)
