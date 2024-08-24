@@ -29,6 +29,18 @@ You will need to install Git (and optionally GitHub Desktop, if you do not plan 
 
 -   GitHub Desktop App: <https://desktop.github.com/>
 
+### Git Configuration
+
+On first-time use, name and email address are required to configure Git. This differs by whether you are using command line or GitHub Desktop
+-  GitHub Desktop: You will be prompted to configure Git when first opening the application. 
+
+-  Command Line, type the followiing into the console (updating to your login details): 
+```
+git config --global user.name "<username>"
+git config --global user.email xxx@example.com
+
+```
+
 ### GitHub Account
 
 To participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.
@@ -44,10 +56,13 @@ Note: More generally, we recommend that you [setup two-factor authentication to 
 ### Files 
 
 -   Please download the following two files: 
-    -   \[Instructions - placeholder\] 
+    -   [Instructions](https://drive.google.com/file/d/14lGUbbt6pTvxAs_CihipR9T0olEExtmM/view?usp=sharing)
     -   [Project files](https://drive.google.com/file/d/1BeYgo_0jIcD8FoLEpdsfTvZ4vkjoJzx5/view?usp=share_link)
 
-## Additional resources
+### Questions
+During the session, you are welcome to post questions in this [Google Document](https://docs.google.com/document/d/1BT_AqfW0Emhs1VmHBTRnyuzXH57In9R_WTT1Zj0Irm4/edit?usp=sharing) (which the tutors will monitor).
+
+## Additional Resources
 
 -   Weberpals, J. & Wang, S. V. [The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R](https://doi.org/10.1002/pds.5740). *Pharmacoepidemiol. Drug Saf.* (2024)
 
