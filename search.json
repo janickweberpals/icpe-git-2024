@@ -204,7 +204,7 @@
     "href": "03_workshop.html",
     "title": "5  Git interactive hands-on workshop",
     "section": "",
-    "text": "5.1 Session Introduction\nBuilding on the previous ‘Introduction to Git’ Session, you will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project.",
+    "text": "5.1 Session Introduction\nIn this session, we will build on the previous ‘Introduction to Git’ session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project.. You’ll find the setup instructions, materials and slides for this session below.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
