@@ -111,10 +111,22 @@ In this session we will introduce you to git and Github, talk through different 
 
 ## Additional Resources
 
--   [Comprehensive Documentation for Github Desktop](https://docs.github.com/en/desktop/overview)
-
 -   Weberpals, J. & Wang, S. V. [The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R](https://doi.org/10.1002/pds.5740). *Pharmacoepidemiol. Drug Saf.* (2024)
 
 -   Morton, C. *et al.* [Software development skills for health data researchers](https://informatics.bmj.com/content/29/1/e100488). *BMJ Health Care Inform.* **29**, e100488 (2022).
 
 -   Bryan, J. [Excuse Me, Do You Have a Moment to Talk about Version Control?](https://peerj.com/preprints/3159) *PeerJ Preprints* (2017)
+
+-   Webpages:
+
+    -   [Comprehensive Documentation for Github Desktop](https://docs.github.com/en/desktop/overview)
+
+    -   [Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) with common `Git` commands:
+
+    -   [Git manual](https://www.atlassian.com/git) by Atlassian (provider of the `Bitbucket` platform)
+
+    -   Coursera courses:
+
+        -   [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github) (Google)
+        -   [Version Control with Git](https://www.coursera.org/learn/version-control-with-git) (Atlassian)
+        -   [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github) (IBM)
