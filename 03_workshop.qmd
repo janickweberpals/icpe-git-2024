@@ -11,7 +11,7 @@ editor: visual
 
 ## Session Introduction
 
-In this session, we will build on the previous 'Introduction to Git' session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.
+In this session, we will build on the previous 'Introduction to `Git`' session. You will get hands-on experience using `Git`, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.
 
 
 ## ICPE 2024 Slides
@@ -23,7 +23,7 @@ In this session, we will build on the previous 'Introduction to Git' session. Yo
 The following section provides details on the necessary setup steps for participating in this workshop.
 
 ### Software Installation 
-You will need to install Git (and optionally GitHub Desktop, if you do not plan to follow along using the command line):
+You will need to install `Git` (and optionally GitHub Desktop, if you do not plan to follow along using the command line):
 
 -   Main `Git` website to download (with guides for Mac, Windows and Linux) and learn more about `Git:` <https://git-scm.com>
 
@@ -31,10 +31,11 @@ You will need to install Git (and optionally GitHub Desktop, if you do not plan 
 
 ### Git Configuration
 
-On first-time use, name and email address are required to configure Git. This differs by whether you are using command line or GitHub Desktop
--  GitHub Desktop: You will be prompted to configure Git when first opening the application. 
+On first-time use, name and email address are required to configure `Git`. This differs by whether you are using command line or GitHub Desktop
 
--  Command Line, type the followiing into the console (updating to your login details): 
+-  GitHub Desktop: You will be prompted to configure `Git` when first opening the application. 
+
+-  Command Line: You will need to type the followiing into the console (updating to your login details): 
 ```
 git config --global user.name "<username>"
 git config --global user.email xxx@example.com
