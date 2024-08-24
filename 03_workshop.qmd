@@ -11,7 +11,7 @@ editor: visual
 
 ## Session Introduction
 
-In this session, we will build on the previous 'Introduction to Git' session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project.. You’ll find the setup instructions, materials and slides for this session below.
+In this session, we will build on the previous 'Introduction to Git' session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.
 
 
 ## ICPE 2024 Slides
@@ -23,6 +23,7 @@ In this session, we will build on the previous 'Introduction to Git' session. Yo
 The following section provides details on the necessary setup steps for participating in this workshop.
 
 ### Software Installation 
+You will need to install Git (and optionally GitHub Desktop, if you do not plan to follow along using the command line):
 
 -   Main `Git` website to download (with guides for Mac, Windows and Linux) and learn more about `Git:` <https://git-scm.com>
 
@@ -38,7 +39,7 @@ Otherwise, please create one following the steps below.
 2.  Click the "Sign up" button.
 3.  Provide an email address and password.
 
-Note: More generally, we recommend that you [setup two-factor authentication to secure your account](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa). **This is not essential for the workshop.**
+Note: More generally, we recommend that you [setup two-factor authentication to secure your account](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa). **(This is not essential for the workshop).**
 
 ### Files 
 
@@ -48,14 +49,17 @@ Note: More generally, we recommend that you [setup two-factor authentication to 
 
 ## Additional resources
 
--   FAIRificatiion of RWE: Using `Git` and `R` for Pharmacoepidemiology [@Weberpals2024]
+-   Weberpals, J. & Wang, S. V. [The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R](https://doi.org/10.1002/pds.5740). *Pharmacoepidemiol. Drug Saf.* (2024)
 
--   [Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) with common `Git` commands:
+-   Morton, C. *et al.* [Software development skills for health data researchers](https://informatics.bmj.com/content/29/1/e100488). *BMJ Health Care Inform.* **29**, e100488 (2022).
 
--   [Git manual](https://www.atlassian.com/git) by Atlassian (provider of the `Bitbucket` platform)
+-   Bryan, J. [Excuse Me, Do You Have a Moment to Talk about Version Control?](https://peerj.com/preprints/3159) *PeerJ Preprints* (2017)
 
--   Coursera courses:
-
-    -   [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github) (Google)
-    -   [Version Control with Git](https://www.coursera.org/learn/version-control-with-git) (Atlassian)
-    -   [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github) (IBM)
+-   Webpages:
+    -   [Comprehensive Documentation for Github Desktop](https://docs.github.com/en/desktop/overview)
+    -   [Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) with common `Git` commands:
+    -   [Git manual](https://www.atlassian.com/git) by Atlassian (provider of the `Bitbucket` platform)
+    -   Coursera courses:
+        -   [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github) (Google)
+        -   [Version Control with Git](https://www.coursera.org/learn/version-control-with-git) (Atlassian)
+        -   [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github) (IBM)
