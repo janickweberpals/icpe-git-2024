@@ -167,10 +167,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#workshop-materials" id="toc-workshop-materials" class="nav-link" data-scroll-target="#workshop-materials"><span class="header-section-number">5.3</span> Workshop Materials</a>
   <ul class="collapse">
   <li><a href="#software-installation" id="toc-software-installation" class="nav-link" data-scroll-target="#software-installation"><span class="header-section-number">5.3.1</span> Software Installation</a></li>
-  <li><a href="#github-account" id="toc-github-account" class="nav-link" data-scroll-target="#github-account"><span class="header-section-number">5.3.2</span> GitHub Account</a></li>
-  <li><a href="#files" id="toc-files" class="nav-link" data-scroll-target="#files"><span class="header-section-number">5.3.3</span> Files</a></li>
+  <li><a href="#git-configuration" id="toc-git-configuration" class="nav-link" data-scroll-target="#git-configuration"><span class="header-section-number">5.3.2</span> Git Configuration</a></li>
+  <li><a href="#github-account" id="toc-github-account" class="nav-link" data-scroll-target="#github-account"><span class="header-section-number">5.3.3</span> GitHub Account</a></li>
+  <li><a href="#files" id="toc-files" class="nav-link" data-scroll-target="#files"><span class="header-section-number">5.3.4</span> Files</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions"><span class="header-section-number">5.3.5</span> Questions</a></li>
   </ul></li>
-  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources"><span class="header-section-number">5.4</span> Additional resources</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources"><span class="header-section-number">5.4</span> Additional Resources</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/janickweberpals/icpe-git-2024/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -228,8 +230,18 @@ ul.task-list li input[type="checkbox"] {
 <li><p>GitHub Desktop App: <a href="https://desktop.github.com/" class="uri">https://desktop.github.com/</a></p></li>
 </ul>
 </section>
-<section id="github-account" class="level3" data-number="5.3.2">
-<h3 data-number="5.3.2" class="anchored" data-anchor-id="github-account"><span class="header-section-number">5.3.2</span> GitHub Account</h3>
+<section id="git-configuration" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="git-configuration"><span class="header-section-number">5.3.2</span> Git Configuration</h3>
+<p>On first-time use, name and email address are required to configure Git. This differs by whether you are using command line or GitHub Desktop - GitHub Desktop: You will be prompted to configure Git when first opening the application.</p>
+<ul>
+<li>Command Line, type the followiing into the console (updating to your login details):</li>
+</ul>
+<pre><code>git config --global user.name "&lt;username&gt;"
+git config --global user.email xxx@example.com
+</code></pre>
+</section>
+<section id="github-account" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="github-account"><span class="header-section-number">5.3.3</span> GitHub Account</h3>
 <p>To participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.</p>
 <p>Otherwise, please create one following the steps below.</p>
 <ol type="1">
@@ -239,19 +251,23 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>Note: More generally, we recommend that you <a href="https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa">setup two-factor authentication to secure your account</a>. <strong>(This is not essential for the workshop).</strong></p>
 </section>
-<section id="files" class="level3" data-number="5.3.3">
-<h3 data-number="5.3.3" class="anchored" data-anchor-id="files"><span class="header-section-number">5.3.3</span> Files</h3>
+<section id="files" class="level3" data-number="5.3.4">
+<h3 data-number="5.3.4" class="anchored" data-anchor-id="files"><span class="header-section-number">5.3.4</span> Files</h3>
 <ul>
 <li>Please download the following two files:
 <ul>
-<li>[Instructions - placeholder]</li>
+<li><a href="https://drive.google.com/file/d/14lGUbbt6pTvxAs_CihipR9T0olEExtmM/view?usp=sharing">Instructions</a></li>
 <li><a href="https://drive.google.com/file/d/1BeYgo_0jIcD8FoLEpdsfTvZ4vkjoJzx5/view?usp=share_link">Project files</a></li>
 </ul></li>
 </ul>
 </section>
+<section id="questions" class="level3" data-number="5.3.5">
+<h3 data-number="5.3.5" class="anchored" data-anchor-id="questions"><span class="header-section-number">5.3.5</span> Questions</h3>
+<p>During the session, you are welcome to post questions in this <a href="https://docs.google.com/document/d/1BT_AqfW0Emhs1VmHBTRnyuzXH57In9R_WTT1Zj0Irm4/edit?usp=sharing">Google Document</a> (which the tutors will monitor).</p>
+</section>
 </section>
 <section id="additional-resources" class="level2" data-number="5.4">
-<h2 data-number="5.4" class="anchored" data-anchor-id="additional-resources"><span class="header-section-number">5.4</span> Additional resources</h2>
+<h2 data-number="5.4" class="anchored" data-anchor-id="additional-resources"><span class="header-section-number">5.4</span> Additional Resources</h2>
 <ul>
 <li><p>Weberpals, J. &amp; Wang, S. V. <a href="https://doi.org/10.1002/pds.5740">The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R</a>. <em>Pharmacoepidemiol. Drug Saf.</em> (2024)</p></li>
 <li><p>Morton, C. <em>et al.</em> <a href="https://informatics.bmj.com/content/29/1/e100488">Software development skills for health data researchers</a>. <em>BMJ Health Care Inform.</em> <strong>29</strong>, e100488 (2022).</p></li>
