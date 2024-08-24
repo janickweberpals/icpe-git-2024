@@ -194,7 +194,7 @@
     "href": "02_intro.html#additional-resources",
     "title": "4  Introduction to git",
     "section": "4.6 Additional Resources",
-    "text": "4.6 Additional Resources\n\nComprehensive Documentation for Github Desktop\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)",
+    "text": "4.6 Additional Resources\n\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)\nWebpages:\n\nComprehensive Documentation for Github Desktop\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
     ]
