@@ -204,17 +204,37 @@
     "href": "03_workshop.html",
     "title": "5  Git interactive hands-on workshop",
     "section": "",
-    "text": "5.1 Git workshop\nAdditional information can go here, e.g.,",
+    "text": "5.1 Session Introduction\nBuilding on the previous ‘Introduction to Git’ Session, you will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
   {
-    "objectID": "03_workshop.html#git-workshop",
-    "href": "03_workshop.html#git-workshop",
+    "objectID": "03_workshop.html#icpe-2024-slides",
+    "href": "03_workshop.html#icpe-2024-slides",
     "title": "5  Git interactive hands-on workshop",
-    "section": "",
-    "text": "Case study instructions\nSetup instructions\n\nInstalling git\nInstalling GitHub Desktop\nLocal setup? Posit cloud? GitHub Codespaces?\n\nHow to fetch/download example data\n….",
+    "section": "5.2 ICPE 2024 Slides",
+    "text": "5.2 ICPE 2024 Slides",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#workshop-materials",
+    "href": "03_workshop.html#workshop-materials",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.3 Workshop Materials",
+    "text": "5.3 Workshop Materials\nThe following section provides details on the necessary setup steps for participating in this workshop.\n\n5.3.1 Software Installation\n\nMain Git website to download (with guides for Mac, Windows and Linux) and learn more about Git: https://git-scm.com\nGitHub Desktop App: https://desktop.github.com/\n\n\n\n5.3.2 GitHub Account\nTo participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.\nOtherwise, please create one following the steps below.\n\nVisit GitHub.\nClick the “Sign up” button.\nProvide an email address and password.\n\nNote: More generally, we recommend that you setup two-factor authentication to secure your account. This is not essential for the workshop.\n\n\n5.3.3 Files\n\nPlease download the following two files:\n\n[Instructions - placeholder]\nProject files",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#additional-resources",
+    "href": "03_workshop.html#additional-resources",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.4 Additional resources",
+    "text": "5.4 Additional resources\n\nFAIRificatiion of RWE: Using Git and R for Pharmacoepidemiology [@Weberpals2024]\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
