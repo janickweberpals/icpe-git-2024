@@ -204,7 +204,7 @@
     "href": "03_workshop.html",
     "title": "5  Git interactive hands-on workshop",
     "section": "",
-    "text": "5.1 Session Introduction\nIn this session, we will build on the previous ‘Introduction to Git’ session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project.. You’ll find the setup instructions, materials and slides for this session below.",
+    "text": "5.1 Session Introduction\nIn this session, we will build on the previous ‘Introduction to Git’ session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
@@ -224,7 +224,7 @@
     "href": "03_workshop.html#workshop-materials",
     "title": "5  Git interactive hands-on workshop",
     "section": "5.3 Workshop Materials",
-    "text": "5.3 Workshop Materials\nThe following section provides details on the necessary setup steps for participating in this workshop.\n\n5.3.1 Software Installation\n\nMain Git website to download (with guides for Mac, Windows and Linux) and learn more about Git: https://git-scm.com\nGitHub Desktop App: https://desktop.github.com/\n\n\n\n5.3.2 GitHub Account\nTo participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.\nOtherwise, please create one following the steps below.\n\nVisit GitHub.\nClick the “Sign up” button.\nProvide an email address and password.\n\nNote: More generally, we recommend that you setup two-factor authentication to secure your account. This is not essential for the workshop.\n\n\n5.3.3 Files\n\nPlease download the following two files:\n\n[Instructions - placeholder]\nProject files",
+    "text": "5.3 Workshop Materials\nThe following section provides details on the necessary setup steps for participating in this workshop.\n\n5.3.1 Software Installation\nYou will need to install Git (and optionally GitHub Desktop, if you do not plan to follow along using the command line):\n\nMain Git website to download (with guides for Mac, Windows and Linux) and learn more about Git: https://git-scm.com\nGitHub Desktop App: https://desktop.github.com/\n\n\n\n5.3.2 GitHub Account\nTo participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.\nOtherwise, please create one following the steps below.\n\nVisit GitHub.\nClick the “Sign up” button.\nProvide an email address and password.\n\nNote: More generally, we recommend that you setup two-factor authentication to secure your account. (This is not essential for the workshop).\n\n\n5.3.3 Files\n\nPlease download the following two files:\n\n[Instructions - placeholder]\nProject files",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
@@ -234,7 +234,7 @@
     "href": "03_workshop.html#additional-resources",
     "title": "5  Git interactive hands-on workshop",
     "section": "5.4 Additional resources",
-    "text": "5.4 Additional resources\n\nFAIRificatiion of RWE: Using Git and R for Pharmacoepidemiology [@Weberpals2024]\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
+    "text": "5.4 Additional resources\n\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)\nWebpages:\n\nComprehensive Documentation for Github Desktop\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
