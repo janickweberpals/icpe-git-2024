@@ -11,7 +11,8 @@ editor: visual
 
 ## Session Introduction
 
-Building on the previous 'Introduction to Git' Session, you will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project.
+In this session, we will build on the previous 'Introduction to Git' session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project.. You’ll find the setup instructions, materials and slides for this session below.
+
 
 ## ICPE 2024 Slides
 
