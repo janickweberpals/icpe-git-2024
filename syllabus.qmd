@@ -52,7 +52,6 @@ read_sheet(
   ss = Sys.getenv("timetable_url")
   ) |> 
   filter(Time != "Total") |> 
-  select(-Minutes) |> 
   gt() |> 
   cols_align(align = "left")
 ```
