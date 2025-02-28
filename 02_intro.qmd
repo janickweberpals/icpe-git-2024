@@ -17,7 +17,7 @@ In this session we will introduce you to git and Github, talk through different 
 
 ## ISPE 2024 Slides
 
-<iframe src="https://docs.google.com/presentation/d/109nKGGWKcUeTiU7rI6ADXM1bV-bZY-3F/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQhIHm7e6ySzmIxbToiaChUNhuaeXPZG3MDQh0jFpwfXqt5QPUOiKTCLUEP4M8RsQ/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
 </iframe>
 

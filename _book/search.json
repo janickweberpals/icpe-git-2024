@@ -13,43 +13,61 @@
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "Let’s git it started",
-    "section": "About",
-    "text": "About\nTransparency and reproducibility are major prerequisites for conducting meaningful real-world evidence (RWE) studies that are fit for decision-making. With HARPER and RECORD-PE, many advances have been made in the documentation and reporting of study protocols, study parameters, and results, but the principles for computational reproducibility of study results, version control and sharing of analytic code in RWE are not yet as established as in other quantitative disciplines like computational biology and health informatics, where there are potentially fewer barriers.\nAs many stakeholders (funding agencies, journals, regulators, data providers) increasingly require a transparent audit trail of all steps of a RWE study and reproducible analytic source code, this warrants pharmacoepidemiologists to upskill and implement reproducible workflows as routine practice. This course aims to give an introduction on practical study design templates (HARPER) and tools (git, quarto) to increase the transparency and reproducibility across the design, analysis and reporting stages of a RWE study.\n\n\n\n\n\n\nTip\n\n\n\n\nCourse material: Course materials can be found at https://github.com/janickweberpals/icpe-git-2024\nPoll everywhere survey can be found at https://pollev.com/janickweberpals917"
+    "section": "",
+    "text": "Tip\n\n\n\n\nCourse material: Course materials can be found at https://github.com/janickweberpals/icpe-git-2024\nPoll everywhere survey can be found at https://pollev.com/janickweberpals917",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
   },
   {
     "objectID": "index.html#course-requisites",
     "href": "index.html#course-requisites",
     "title": "Let’s git it started",
     "section": "Course requisites",
-    "text": "Course requisites\nThis course is designed for participants both new and experienced in pharmacoepidemiology. Whilst this may be most relevant for people who work hands-on with healthcare databases and so have some coding experience, any levels of expertise are welcome.\n\n\n\n\n\n\nImportant\n\n\n\nCourse participants should have a good understanding of basic pharmacoepidemiologic principles and ideally some experience with any statistical programming language."
+    "text": "Course requisites\nThis course is designed for participants both new and experienced in pharmacoepidemiology. Whilst this may be most relevant for people who work hands-on with healthcare databases and so have some coding experience, any levels of expertise are welcome.\n\n\n\n\n\n\nImportant\n\n\n\nCourse participants should have a good understanding of basic pharmacoepidemiologic principles and ideally some experience with any statistical programming language.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
   },
   {
     "objectID": "index.html#helpful-pre-reads",
     "href": "index.html#helpful-pre-reads",
     "title": "Let’s git it started",
     "section": "Helpful pre-reads",
-    "text": "Helpful pre-reads\nWeberpals J and Wang SV. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. doi: 10.1002/pds.5740.\nSchultze A, Tazare J. The role of programming code sharing in improving the transparency of medical research. BMJ. 2023 Oct 17;383:2402. doi: 10.1136/bmj.p2402. PMID: 37848206.\nWang SV, Pottegård A, Crown W, Arlett P, et al. HARmonized Protocol Template to Enhance Reproducibility of hypothesis evaluating real-world evidence studies on treatment effects: A good practices report of a joint ISPE/ISPOR task force. Pharmacoepidemiol Drug Saf. 2023 Jan;32(1):44-55. doi: 10.1002/pds.5507. Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861."
+    "text": "Helpful pre-reads\nWeberpals J and Wang SV. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. doi: 10.1002/pds.5740.\nSchultze A, Tazare J. The role of programming code sharing in improving the transparency of medical research. BMJ. 2023 Oct 17;383:2402. doi: 10.1136/bmj.p2402. PMID: 37848206.\nWang SV, Pottegård A, Crown W, Arlett P, et al. HARmonized Protocol Template to Enhance Reproducibility of hypothesis evaluating real-world evidence studies on treatment effects: A good practices report of a joint ISPE/ISPOR task force. Pharmacoepidemiol Drug Saf. 2023 Jan;32(1):44-55. doi: 10.1002/pds.5507. Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
   },
   {
     "objectID": "index.html#sec-dependencies",
     "href": "index.html#sec-dependencies",
     "title": "Let’s git it started",
     "section": "Dependencies",
-    "text": "Dependencies\nThis is a quarto project and R package dependencies are managed through the renv package. All packages and their versions can be viewed in the lockfile renv.lock. All required packages and the appropriate versions can be installed by running the following command:\n\nrenv::restore()"
+    "text": "Dependencies\nThis is a quarto project and R package dependencies are managed through the renv package. All packages and their versions can be viewed in the lockfile renv.lock. All required packages and the appropriate versions can be installed by running the following command:\n\nrenv::restore()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
   },
   {
     "objectID": "index.html#reproducibility",
     "href": "index.html#reproducibility",
     "title": "Let’s git it started",
     "section": "Reproducibility",
-    "text": "Reproducibility\nFollow these steps if you wish to reproduce this website:\n\n\n\n\n\n\nNote\n\n\n\n\nInstall all necessary dependencies (see above) and make sure Quarto is installed (usually comes automatically with RStudio installation)\nUsing command line, run all scripts via quarto render or in RStudio Build &gt; Render Book"
+    "text": "Reproducibility\nFollow these steps if you wish to reproduce this website:\n\n\n\n\n\n\nNote\n\n\n\n\nInstall all necessary dependencies (see above) and make sure Quarto is installed (usually comes automatically with RStudio installation)\nUsing command line, run all scripts via quarto render or in RStudio Build &gt; Render Book",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
   },
   {
     "objectID": "index.html#repository-structure-and-files",
     "href": "index.html#repository-structure-and-files",
     "title": "Let’s git it started",
     "section": "Repository structure and files",
-    "text": "Repository structure and files\n\nDirectory overview\nOverview of files and file types in this repository:\n\n.Rprofile - defines paths, activates renv, options for Posit R package manager\nrenv/renv.lock - renv directories to manage R dependencies and versions used in this simulation\n.github - workflow files for automatic CI/CD on Github pages\nREADME - essential information about the project (README.Rmd renders to README.md via update_README.R after each quarto render command)"
+    "text": "Repository structure and files\n\nDirectory overview\nOverview of files and file types in this repository:\n\n.Rprofile - defines paths, activates renv, options for Posit R package manager\nrenv/renv.lock - renv directories to manage R dependencies and versions used in this simulation\n.github - workflow files for automatic CI/CD on Github pages\nREADME - essential information about the project (README.Rmd renders to README.md via update_README.R after each quarto render command)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
   },
   {
     "objectID": "syllabus.html",
@@ -80,21 +98,19 @@
     "href": "01_protocol.html",
     "title": "3  Protocols for pre-specification",
     "section": "",
-    "text": "3.1 HARPER\nAdditional information can go here",
+    "text": "3.1 HARPER\nAmbiguity in communication of key study parameters limits the utility of real-world evidence (RWE) studies in healthcare decision-making. The International Society for Pharmacoepidemiology and ISPOR (The Professional Society for Health Economics and Outcomes Research) convened a joint task force to create a harmonized protocol template for RWE studies. The template builds on existing efforts to improve transparency and incorporates recent insights regarding the level of detail needed to enable study reproducibility.\nThe overarching principle was to reach for sufficient clarity to achieve three main goals. One, to help investigators thoroughly consider, then document their choices and rationale for key study parameters that define the causal question, two, to facilitate decision-making by enabling reviewers to readily assess potential for biases related to these choices, and three, to facilitate reproducibility. The HARmonized Protocol Template to Enhance Reproducibility helps to create a shared understanding of intended scientific decisions through a common text, tabular and visual structure. The template provides a set of core recommendations for clear and reproducible RWE study protocols and is intended to be used as a backbone throughout the research process from developing a valid study protocol, to registration, through implementation and reporting on those implementation decisions.",
     "crumbs": [
-      "Protocol",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
     ]
   },
   {
     "objectID": "02_intro.html",
     "href": "02_intro.html",
-    "title": "4  Introduction to Git",
+    "title": "4  Introduction to git",
     "section": "",
-    "text": "4.1 Introduction to Git\nAdditional information can go here",
+    "text": "4.1 Session Introduction\nGit is a free, open-source, distributed version control tool, which allows you to keep track of changes made to a file over time. Github is an online platform which hosts git projects. Using Github can make it easier to use git, share your code with others and to program collaboratively. Although git or similar version control tools are widely adopted by software engineers, they’ve historically been less frequently used by pharmacoepidemiologists. In a recent study of programming code sharing in the journal Pharmacoepidemiology and Drug Safety, we found that only about 5% of people shared code over the past five years, and most of them did so in the supplementary materials of their paper rather than through Github.\nIn this session we will introduce you to git and Github, talk through different ways you might use these in your day to day work, and give some practical considerations for using git for different types of projects and in different organisations (i.e, in academia, or within private companies or consultancies). You’ll find the slides for this session below, as well as a glossary and link to additional resources.",
     "crumbs": [
-      "Git introduction",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to Git</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
     ]
   },
   {
@@ -102,9 +118,8 @@
     "href": "03_workshop.html",
     "title": "5  Git interactive hands-on workshop",
     "section": "",
-    "text": "5.1 Git workshop\nAdditional information can go here",
+    "text": "5.1 Session Introduction\nIn this session, we will build on the previous ‘Introduction to Git’ session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.",
     "crumbs": [
-      "Git hands-on workshop",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
@@ -141,8 +156,11 @@
     "objectID": "01_protocol.html#harper",
     "href": "01_protocol.html#harper",
     "title": "3  Protocols for pre-specification",
-    "section": "3.1 HARPER",
-    "text": "3.1 HARPER\nAmbiguity in communication of key study parameters limits the utility of real-world evidence (RWE) studies in healthcare decision-making. The International Society for Pharmacoepidemiology and ISPOR (The Professional Society for Health Economics and Outcomes Research) convened a joint task force to create a harmonized protocol template for RWE studies. The template builds on existing efforts to improve transparency and incorporates recent insights regarding the level of detail needed to enable study reproducibility.\nThe overarching principle was to reach for sufficient clarity to achieve three main goals. One, to help investigators thoroughly consider, then document their choices and rationale for key study parameters that define the causal question, two, to facilitate decision-making by enabling reviewers to readily assess potential for biases related to these choices, and three, to facilitate reproducibility. The HARmonized Protocol Template to Enhance Reproducibility helps to create a shared understanding of intended scientific decisions through a common text, tabular and visual structure. The template provides a set of core recommendations for clear and reproducible RWE study protocols and is intended to be used as a backbone throughout the research process from developing a valid study protocol, to registration, through implementation and reporting on those implementation decisions.\n\n3.1.1 ICPE 2024 presentation\n\n\n\n\n3.1.2 Additional resources\n\nDownload the HARPER template from OSF here\nRead the paper (Wang SV et al. PDS 2022) here\nFind a GitLab/quarto-based template for real-world evidence (RWE) studies here"
+    "section": "",
+    "text": "3.1.1 ICPE 2024 presentation\n\n\n\n\n3.1.2 Additional resources\n\nDownload the HARPER template from OSF here\nRead the paper (Wang SV et al. PDS 2022) here\nFind a GitLab/quarto-based template for real-world evidence (RWE) studies here",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Protocols for pre-specification</span>"
+    ]
   },
   {
     "objectID": "04_reporting.html#example-study-report-created-using-quarto",
@@ -163,14 +181,20 @@
     "href": "index.html#intro",
     "title": "Let’s git it started",
     "section": "Intro",
-    "text": "Intro"
+    "text": "Intro",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
   },
   {
     "objectID": "index.html#outro",
     "href": "index.html#outro",
     "title": "Let’s git it started",
     "section": "Outro",
-    "text": "Outro"
+    "text": "Outro",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
   },
   {
     "objectID": "03_workshop.html#git-workshop",
@@ -185,5 +209,85 @@
     "title": "6  An introduction to Quarto",
     "section": "6.4 Quarto for reproducible medical manuscripts",
     "text": "6.4 Quarto for reproducible medical manuscripts\n\nTalk by Mine Çetinkaya-Rundel on Quarto’s new manuscript document type and how it can be used to create reproducible medical manuscripts (talk delivered at R/Medicine conference 2024)\n&lt;/li&gt;\n&lt;/ul&gt;\n\n\nMore information can be found at https://quarto.org/docs/blog/posts/2024-04-01-manuscripts-rmedicine/"
+  },
+  {
+    "objectID": "02_intro.html#ispe-2024-slides",
+    "href": "02_intro.html#ispe-2024-slides",
+    "title": "4  Introduction to git",
+    "section": "4.2 ISPE 2024 Slides",
+    "text": "4.2 ISPE 2024 Slides",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
+    ]
+  },
+  {
+    "objectID": "02_intro.html#git-glossary",
+    "href": "02_intro.html#git-glossary",
+    "title": "4  Introduction to git",
+    "section": "4.3 Git glossary",
+    "text": "4.3 Git glossary\n\n\n\n\n\n\n\nTerm\nMeaning\n\n\n\n\nRepository\nProject folder. A repository, often called a “repo”, can be public or private, and hosted either on your own Github profile or that of an organisation.\n\n\nRemote\nThe central place where your code is stored, typically a cloud-based location such as Github.\n\n\nOrigin\nThe remote repository that your project was originally cloned from. Often used interchangeably with remote.\n\n\nClone\nCreate a copy of an existing repository into a specific folder.\n\n\nStage\nChoose which files you want to add to a certain commit. You can think of this as choosing which files you want to be included in a particular snapshot.\n\n\nCommit\nCreate a snapshot of the project. Git will only commit the files you’ve staged.\n\n\nPush\nUpload changes to a file to github\n\n\nBranch\nA copy of your repository. Specifically, it’s a copy of the main branch at a certain point in time. Branches allows you to add specific features or try out changes without the main codebase being affected.\n\n\nPull Request\nAsk for your changes, on a branch, to be merged into another branch (usually the main branch)\n\n\nFetch\nDownload the contents from a remote repository to your local repository. It **does not** integrate this into your working files.\n\n\nMerge\nIncorporate changes, either from one repository to another (for example, from remote to local) or from a feature branch onto the main branch.\n\n\nPull\nDownloads changes, typically from the remote to your computer. Technically, it’s fetch and merge combined.\n\n\nREADME\nA plain text file that provides information about a project. Your README will render automatically on Github and provide a ‘landing page’ and introduction to your project. Typically written in markdown.\n\n\nLicense\nA file which tells others what they can and cannot do with your code. If you do not specify a license, default copyright laws apply (you retain all rights to the code and no one can reproduce, distributed or create derivative works from your work). The default license is very restrictive and hinders reuse, it is almost always worth choosing a more permissive license for a public project.\n\n\n.gitignore\nFile which tells git what types of files to ignore. A .gitignore may be automatically added to a repository, if you create it based on a template.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
+    ]
+  },
+  {
+    "objectID": "02_intro.html#how-to-for-common-tasks",
+    "href": "02_intro.html#how-to-for-common-tasks",
+    "title": "4  Introduction to git",
+    "section": "4.4 ‘How to’ for common tasks",
+    "text": "4.4 ‘How to’ for common tasks\n\n\n\nTask\nCommand Line\nGithub Desktop\n\n\n\n\nCreate a new repository\ngit init\nClick File in the menu bar at the top, then New Repository to create a new repository\n\n\nClone a repository from Github to your local machine.\ncd [working directory you want to clone into]\ngit clone my_url.com\nClick File in the menu bar at the top, then Clone Repository and follow prompts to enter where you want to clone this to, and the url for the repository you want to clone.\n\n\nCheckout a new branch for the first time\ngit checkout -b my_branch_name\nIn the Github desktop bar, select Current Branch and then New Branch.\n\n\nStage files (choose which changes to include in a commit)\ngit add my_filename.R\nIn the left hand bar, use the checkboxes to select files. To stage all files, click the top checkbox.\n\n\nCommit\ngit commit -m “my informative commit message”\nIn the bottom of the left hand bar, there is an option to commit to [branch_name]. If you do not use branches, this will most likely say commit to main or commit to master. Before you press commit, enter an informative commit message in the top bar. Github Desktop will autofill one based on the files that are included, but you can edit this. The description field is a more detailed explanation of the commit, which you can leave blank if you want.\n\n\nPush commits to the remote.\ngit push origin branch name\ngit push origin main (for main branch)\nClick Push Origin in the top right-hand corner within the repository bar\n\n\nOpen a Pull Request.\nPull Requests are a feature of Github. Push your changes to the remote feature branch, and Github will automatically prompt you to open a pull request.\nAfter pushing changes to a remote branch, Github Desktop will prompt you to open a pull request which will open Github. You can also navigate to Github yourself, and initiate the PR from there.\n\n\nFetch files from remote\ngit fetch (all files and branches)\ngit fetch origin main (all files in main)\nIn the Github desktop bar, select Fetch Origin. If there are changes, you prompted to consequently Pull origin to incorporate those changes.\n\n\nMerge in changes you’ve fetched from origin\ngit merge origin/main\nor\ngit merge origin/feature_branch\nGit will merge this into the branch **you are working in**. Merge needs to be preceded by a git fetch.\nNot applicable; Github Desktop integrates changes by pulling them after fetching (see below).\n\n\nPull changes from origin.\ngit pull origin/main\nor\ngit pull origin/feature_branch\nAfter Fetch Origin, you will be prompted to Pull Origin to incorporate any changes.\n\n\n\nSave a text file with the title README in your project folder.\nYou will be prompted to ‘initialise’ the repository with a README when you click create New Repository, which will create a text file titled README in the project folder.\n\n\nAdd a license to your repository\nGithub will take any file saved as LICENSE in the project repository and display it as the project license. Go to https://choosealicense.com/, pick one, and copy paste it into a plain text file called LICENSE.\nLicenses are a feature of Github, so same as previously described.\n\n\nEdit a .gitignore file.\nOpen the text file called .gitignore in the project repository and edit as required. If you cannot see it, turn on view hidden files (how to do this will vary depending on your OS).\nIn the menu bar, select Repository, then Repository Settings and select Ignored Files. Edit as required.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
+    ]
+  },
+  {
+    "objectID": "02_intro.html#key-steps-in-a-git-workflow",
+    "href": "02_intro.html#key-steps-in-a-git-workflow",
+    "title": "4  Introduction to git",
+    "section": "4.5 Key Steps in a git workflow",
+    "text": "4.5 Key Steps in a git workflow",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
+    ]
+  },
+  {
+    "objectID": "02_intro.html#additional-resources",
+    "href": "02_intro.html#additional-resources",
+    "title": "4  Introduction to git",
+    "section": "4.6 Additional Resources",
+    "text": "4.6 Additional Resources\n\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)\nWebpages:\n\nComprehensive Documentation for Github Desktop\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction to git</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#icpe-2024-slides",
+    "href": "03_workshop.html#icpe-2024-slides",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.2 ICPE 2024 Slides",
+    "text": "5.2 ICPE 2024 Slides",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#workshop-materials",
+    "href": "03_workshop.html#workshop-materials",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.3 Workshop Materials",
+    "text": "5.3 Workshop Materials\nThe following section provides details on the necessary setup steps for participating in this workshop.\n\n5.3.1 Software Installation\nYou will need to install Git (and optionally GitHub Desktop, if you do not plan to follow along using the command line):\n\nMain Git website to download (with guides for Mac, Windows and Linux) and learn more about Git: https://git-scm.com\nGitHub Desktop App: https://desktop.github.com/\n\n\n\n5.3.2 Git Configuration\nOn first-time use, name and email address are required to configure Git. This differs by whether you are using command line or GitHub Desktop\n\nGitHub Desktop: You will be prompted to configure Git when first opening the application.\nCommand Line: You will need to type the followiing into the console (updating to your login details):\n\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email xxx@example.com\n\n\n5.3.3 GitHub Account\nTo participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.\nOtherwise, please create one following the steps below.\n\nVisit GitHub.\nClick the “Sign up” button.\nProvide an email address and password.\n\nNote: More generally, we recommend that you setup two-factor authentication to secure your account. (This is not essential for the workshop).\n\n\n5.3.4 Files\n\nPlease download the following two files:\n\nInstructions\nProject files\n\n\n\n\n5.3.5 Questions\nDuring the session, you are welcome to post questions in this Google Document (which the tutors will monitor).",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#additional-resources",
+    "href": "03_workshop.html#additional-resources",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.4 Additional Resources",
+    "text": "5.4 Additional Resources\n\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)\nWebpages:\n\nComprehensive Documentation for Github Desktop\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
   }
 ]
