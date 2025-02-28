@@ -51,7 +51,7 @@ gs4_deauth()
 read_sheet(
   ss = Sys.getenv("timetable_url")
   ) |> 
-  filter(Time != "Total") |> 
+  filter(! Time %in% "Total") |> 
   gt() |> 
   cols_align(align = "left")
 ```
