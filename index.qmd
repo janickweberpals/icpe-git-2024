@@ -9,7 +9,7 @@ number-sections: false
 
 ![](icpe24_logo.png){fig-align="center" width="728"}
 
->Course Date: August 25, 2024 (9am-12:30pm, Berlin)
+> Course Date: August 25, 2024 (9am-12:30pm, Berlin)
 
 ## About {.unnumbered}
 
@@ -17,32 +17,40 @@ Transparency and reproducibility are major prerequisites for conducting meaningf
 
 As many stakeholders (funding agencies, journals, regulators, data providers) increasingly require a transparent audit trail of all steps of a RWE study and reproducible analytic source code, this warrants pharmacoepidemiologists to upskill and implement reproducible workflows as routine practice. This course aims to give an introduction on practical study design templates (HARPER) and tools (git, quarto) to increase the transparency and reproducibility across the design, analysis and reporting stages of a RWE study.
 
-::: {.content-visible when-format="html"}
+:::: {.content-visible when-format="html"}
 ::: callout-tip
 -   Course material: Course materials can be found at <https://github.com/janickweberpals/icpe-git-2024>
 -   Poll everywhere survey can be found at <https://pollev.com/janickweberpals917>
 :::
-:::
+::::
+
+<!--#
 
 ## [Intro](https://docs.google.com/presentation/d/1j6LsWOIuNQbo8jRhGsEpOGSRuvrXpox-UIweZPemCco/edit?usp=sharing){.unnumbered}
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBPAY8Qv8iCTrckw7MXAJPKfO8WtvZCSZAcnLx097G2AHk78MY-AieJqCgdGVpYNobGfemmAINFBkK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBPAY8Qv8iCTrckw7MXAJPKfO8WtvZCSZAcnLx097G2AHk78MY-AieJqCgdGVpYNobGfemmAINFBkK/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
 
 </iframe>
 
 ## [Outro](https://docs.google.com/presentation/d/1PVlWnePZY7WsqlGHuZ_BCd3VBXg4vB0FmN0rq2oSx7E/edit?usp=sharing){.unnumbered}
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRZDmme11u8JNR5PgfJbucRySNw3TX2Prx9aD6iAS9XZmZZ0ui7Er3WCXiFiexn7Iap0vgyYCus4-Vh/embed?start=false&loop=false&delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRZDmme11u8JNR5PgfJbucRySNw3TX2Prx9aD6iAS9XZmZZ0ui7Er3WCXiFiexn7Iap0vgyYCus4-Vh/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+
+-->
 
 ## Course requisites {.unnumbered}
 
 This course is designed for participants both new and experienced in pharmacoepidemiology. Whilst this may be most relevant for people who work hands-on with healthcare databases and so have some coding experience, any levels of expertise are welcome.
 
-::: {.content-visible when-format="html"}
+:::: {.content-visible when-format="html"}
 ::: callout-important
 Course participants should have a good understanding of basic pharmacoepidemiologic principles and ideally some experience with any statistical programming language.
 :::
-:::
+::::
 
 ## Helpful pre-reads {.unnumbered}
 
@@ -52,7 +60,7 @@ Schultze A, Tazare J. The role of programming code sharing in improving the tran
 
 Wang SV, Pottegård A, Crown W, Arlett P, et al. HARmonized Protocol Template to Enhance Reproducibility of hypothesis evaluating real-world evidence studies on treatment effects: A good practices report of a joint ISPE/ISPOR task force. Pharmacoepidemiol Drug Saf. 2023 Jan;32(1):44-55. [doi: 10.1002/pds.5507](https://onlinelibrary.wiley.com/doi/10.1002/pds.5507). Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.
 
-::: {.content-visible when-format="html"}
+:::: {.content-visible when-format="html"}
 ## Dependencies {#sec-dependencies .unnumbered}
 
 This is a quarto project and R package dependencies are managed through the `renv` package. All packages and their versions can be viewed in the lockfile `renv.lock`. All required packages and the appropriate versions can be installed by running the following command:
@@ -80,7 +88,7 @@ Overview of files and file types in this repository:
 -   renv/renv.lock - `renv` directories to manage R dependencies and versions used in this simulation
 -   .github - workflow files for automatic CI/CD on Github pages
 -   README - essential information about the project (README.Rmd renders to README.md via update_README.R after each `quarto render` command)
-:::
+::::
 
 ```{r}
 #| echo: false

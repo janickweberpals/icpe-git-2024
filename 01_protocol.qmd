@@ -18,7 +18,7 @@ The overarching principle was to reach for sufficient clarity to achieve three m
 
 ### ICPE 2024 presentation
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSHaykW9ciS4Mh0PJuu2dPi2qLahNoB7n8FxLkOfwcPWezp65o3h0_Ycvd_WcMkNA/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTR6mjSPGXSW9470T-cdIJh4tYY44ymVPS2Gwpy09YQU4oGZBxtj0tKLX5693LbJA/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
 </iframe>
 

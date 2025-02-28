@@ -13,16 +13,18 @@ editor: visual
 
 In this session, we will build on the previous 'Introduction to `Git`' session. You will get hands-on experience using `Git`, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.
 
-
 ## ICPE 2024 Slides
 
-<iframe src="https://docs.google.com/presentation/d/1-P3m_fHSpxvS_X0Ju0-jU-HcDH0vbN-5/embed?start=false&loop=false&delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1-P3m_fHSpxvS_X0Ju0-jU-HcDH0vbN-5/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
-## Workshop Materials 
+</iframe>
+
+## Workshop Materials
 
 The following section provides details on the necessary setup steps for participating in this workshop.
 
-### Software Installation 
+### Software Installation
+
 You will need to install `Git` (and optionally GitHub Desktop, if you do not plan to follow along using the command line):
 
 -   Main `Git` website to download (with guides for Mac, Windows and Linux) and learn more about `Git:` <https://git-scm.com>
@@ -33,13 +35,13 @@ You will need to install `Git` (and optionally GitHub Desktop, if you do not pla
 
 On first-time use, name and email address are required to configure `Git`. This differs by whether you are using command line or GitHub Desktop
 
--  GitHub Desktop: You will be prompted to configure `Git` when first opening the application. 
+-   GitHub Desktop: You will be prompted to configure `Git` when first opening the application.
 
--  Command Line: You will need to type the followiing into the console (updating to your login details): 
-```
+-   Command Line: You will need to type the followiing into the console (updating to your login details):
+
+```         
 git config --global user.name "<username>"
 git config --global user.email xxx@example.com
-
 ```
 
 ### GitHub Account
@@ -54,13 +56,14 @@ Otherwise, please create one following the steps below.
 
 Note: More generally, we recommend that you [setup two-factor authentication to secure your account](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa). **(This is not essential for the workshop).**
 
-### Files 
+### Files
 
--   Please download the following two files: 
+-   Please download the following two files:
     -   [Instructions](https://drive.google.com/file/d/14lGUbbt6pTvxAs_CihipR9T0olEExtmM/view?usp=sharing)
     -   [Project files](https://drive.google.com/file/d/1BeYgo_0jIcD8FoLEpdsfTvZ4vkjoJzx5/view?usp=share_link)
 
 ### Questions
+
 During the session, you are welcome to post questions in this [Google Document](https://docs.google.com/document/d/1BT_AqfW0Emhs1VmHBTRnyuzXH57In9R_WTT1Zj0Irm4/edit?usp=sharing) (which the tutors will monitor).
 
 ## Additional Resources
@@ -72,6 +75,7 @@ During the session, you are welcome to post questions in this [Google Document](
 -   Bryan, J. [Excuse Me, Do You Have a Moment to Talk about Version Control?](https://peerj.com/preprints/3159) *PeerJ Preprints* (2017)
 
 -   Webpages:
+
     -   [Comprehensive Documentation for Github Desktop](https://docs.github.com/en/desktop/overview)
     -   [Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) with common `Git` commands:
     -   [Git manual](https://www.atlassian.com/git) by Atlassian (provider of the `Bitbucket` platform)
